@@ -1,0 +1,10 @@
+framework module KakaoSDKLink {
+  umbrella header "KakaoSDKLink-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KakaoSDKLink.__Swift {
+    exclude header "KakaoSDKLink-Swift.h"
+}

@@ -1,13 +1,13 @@
-version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
-options: "e072addd05a08956371471d88515f4cf"
-build_time: [1604417666, 808938000]
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "66e6364b2ea98d79d93020ea92bab712"
+build_time: [1610012478, 162871000]
 inputs:
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/Auth.swift": [1604379564, 739468162]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthApi.swift": [1604379564, 739939891]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthController.swift": [1604379564, 741750438]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthRequestAdapter.swift": [1604379564, 741042108]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthRequestRetrier.swift": [1604379564, 742227969]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/MigrateManager.swift": [1604379564, 742657477]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/model/OAuthToken.swift": [1604379564, 743753358]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/TokenManagable.swift": [1604379564, 743064972]
-  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/TokenManager.swift": [1604379564, 740388703]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/Auth.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthApi.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthController.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthRequestAdapter.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/AuthRequestRetrier.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/MigrateManager.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/model/OAuthToken.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/TokenManagable.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/auth/TokenManager.swift": [1609835633, 0]

@@ -1,0 +1,604 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProgressIndicator"
+- "=="
+provides-nominal:
+- "17SDWebImageSwiftUI17ProgressIndicatorV"
+- "17SDWebImageSwiftUI17ProgressIndicatorV5StyleO"
+provides-member:
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", ""]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", ""]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Style"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Binding"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Double"
+- !private "Float"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PlatformViewRepresentable"
+- "ProgressIndicator"
+- "ProgressIndicatorWrapper"
+- "Style"
+- "UIProgressView"
+- "UIViewRepresentableContext"
+- !private "isAnimating"
+- !private "progress"
+- !private "style"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["7SwiftUI10AnimatableP", ""]
+- ["SK", ""]
+- !private ["SB", "init"]
+- ["7SwiftUI7BindingV", "init"]
+- ["7SwiftUI7BindingV", "projectedValue"]
+- ["7SwiftUI7BindingV", "subscript"]
+- ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["So15CALayerDelegateP", "Style"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "progress"]
+- !private ["So15CALayerDelegateP", "progressViewStyle"]
+- !private ["So15CALayerDelegateP", "setProgress"]
+- !private ["So15CALayerDelegateP", "wrapped"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "progress"]
+- !private ["s7CVarArgP", "progressViewStyle"]
+- !private ["s7CVarArgP", "setProgress"]
+- !private ["s7CVarArgP", "wrapped"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "progress"]
+- !private ["s28CustomDebugStringConvertibleP", "progressViewStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "setProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "wrapped"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "progress"]
+- !private ["s23CustomStringConvertibleP", "progressViewStyle"]
+- !private ["s23CustomStringConvertibleP", "setProgress"]
+- !private ["s23CustomStringConvertibleP", "wrapped"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "Style"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "bar"]
+- ["SQ", "default"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "progress"]
+- !private ["SQ", "progressViewStyle"]
+- !private ["SQ", "setProgress"]
+- !private ["SQ", "wrapped"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["Sf", "init"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- ["SH", "=="]
+- !private ["SH", "Style"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "bar"]
+- ["SH", "default"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "progress"]
+- !private ["SH", "progressViewStyle"]
+- !private ["SH", "setProgress"]
+- !private ["SH", "wrapped"]
+- !private ["s6HasherV", "combine"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So8NSCodingP", "Style"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "progress"]
+- !private ["So8NSCodingP", "progressViewStyle"]
+- !private ["So8NSCodingP", "setProgress"]
+- !private ["So8NSCodingP", "wrapped"]
+- !private ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "progress"]
+- !private ["So8NSObjectC", "progressViewStyle"]
+- !private ["So8NSObjectC", "setProgress"]
+- !private ["So8NSObjectC", "wrapped"]
+- !private ["So8NSObjectP", "Style"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "progress"]
+- !private ["So8NSObjectP", "progressViewStyle"]
+- !private ["So8NSObjectP", "setProgress"]
+- !private ["So8NSObjectP", "wrapped"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "$isAnimating"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "$progress"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Binding"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Body"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Bool"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Coordinator"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Default_Body"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Default_Coordinator"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Double"]
+- !private ["17SDWebImageSwiftUI17ProgressIndicatorV", "Float"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "ProgressIndicator"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "ProgressIndicatorWrapper"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "Style"]
+- !private ["17SDWebImageSwiftUI17ProgressIndicatorV", "UIProgressView"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "UIViewRepresentableContext"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "UIViewType"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", ""]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_Default_Body"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_Default_Coordinator"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_identifiedViewTree"]
+- !private ["17SDWebImageSwiftUI17ProgressIndicatorV", "_isAnimating"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_makeView"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_makeViewList"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_overrideLayoutTraits"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_overrideSizeThatFits"]
+- !private ["17SDWebImageSwiftUI17ProgressIndicatorV", "_progress"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "_viewListCount"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "body"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "dismantleUIView"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "init"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "isAnimating"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "makeCoordinator"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "makeUIView"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "progress"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "style"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV", "updateUIView"]
+- !private ["17SDWebImageSwiftUI24ProgressIndicatorWrapperC", ""]
+- !private ["17SDWebImageSwiftUI24ProgressIndicatorWrapperC", "init"]
+- !private ["17SDWebImageSwiftUI24ProgressIndicatorWrapperC", "wrapped"]
+- !private ["SY", "bar"]
+- !private ["SY", "default"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", ""]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", "=="]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", ""]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", "_rawHashValue"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", "bar"]
+- !private ["So19UIProgressViewStyleV", "bar"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", "default"]
+- !private ["So19UIProgressViewStyleV", "default"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", "hash"]
+- ["17SDWebImageSwiftUI17ProgressIndicatorV5StyleO", "hashValue"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "Style"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "progress"]
+- !private ["So29UIAccessibilityIdentificationP", "progressViewStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "setProgress"]
+- !private ["So29UIAccessibilityIdentificationP", "wrapped"]
+- !private ["So12UIAppearanceP", "Style"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "progress"]
+- !private ["So12UIAppearanceP", "progressViewStyle"]
+- !private ["So12UIAppearanceP", "setProgress"]
+- !private ["So12UIAppearanceP", "wrapped"]
+- !private ["So21UIAppearanceContainerP", "Style"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "progress"]
+- !private ["So21UIAppearanceContainerP", "progressViewStyle"]
+- !private ["So21UIAppearanceContainerP", "setProgress"]
+- !private ["So21UIAppearanceContainerP", "wrapped"]
+- !private ["So17UICoordinateSpaceP", "Style"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "progress"]
+- !private ["So17UICoordinateSpaceP", "progressViewStyle"]
+- !private ["So17UICoordinateSpaceP", "setProgress"]
+- !private ["So17UICoordinateSpaceP", "wrapped"]
+- !private ["So13UIDynamicItemP", "Style"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "progress"]
+- !private ["So13UIDynamicItemP", "progressViewStyle"]
+- !private ["So13UIDynamicItemP", "setProgress"]
+- !private ["So13UIDynamicItemP", "wrapped"]
+- !private ["So18UIFocusEnvironmentP", "Style"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "progress"]
+- !private ["So18UIFocusEnvironmentP", "progressViewStyle"]
+- !private ["So18UIFocusEnvironmentP", "setProgress"]
+- !private ["So18UIFocusEnvironmentP", "wrapped"]
+- !private ["So11UIFocusItemP", "Style"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "progress"]
+- !private ["So11UIFocusItemP", "progressViewStyle"]
+- !private ["So11UIFocusItemP", "setProgress"]
+- !private ["So11UIFocusItemP", "wrapped"]
+- !private ["So20UIFocusItemContainerP", "Style"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "progress"]
+- !private ["So20UIFocusItemContainerP", "progressViewStyle"]
+- !private ["So20UIFocusItemContainerP", "setProgress"]
+- !private ["So20UIFocusItemContainerP", "wrapped"]
+- !private ["So24UILargeContentViewerItemP", "Style"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "progress"]
+- !private ["So24UILargeContentViewerItemP", "progressViewStyle"]
+- !private ["So24UILargeContentViewerItemP", "setProgress"]
+- !private ["So24UILargeContentViewerItemP", "wrapped"]
+- !private ["So30UIPasteConfigurationSupportingP", "Style"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "progress"]
+- !private ["So30UIPasteConfigurationSupportingP", "progressViewStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "setProgress"]
+- !private ["So30UIPasteConfigurationSupportingP", "wrapped"]
+- !private ["So14UIProgressViewC", "Style"]
+- !private ["So14UIProgressViewC", "isHidden"]
+- !private ["So14UIProgressViewC", "progress"]
+- !private ["So14UIProgressViewC", "progressViewStyle"]
+- !private ["So14UIProgressViewC", "setProgress"]
+- !private ["So11UIResponderC", "Style"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "progress"]
+- !private ["So11UIResponderC", "progressViewStyle"]
+- !private ["So11UIResponderC", "setProgress"]
+- !private ["So11UIResponderC", "wrapped"]
+- !private ["So30UIResponderStandardEditActionsP", "Style"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "progress"]
+- !private ["So30UIResponderStandardEditActionsP", "progressViewStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "setProgress"]
+- !private ["So30UIResponderStandardEditActionsP", "wrapped"]
+- !private ["So18UITraitEnvironmentP", "Style"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "progress"]
+- !private ["So18UITraitEnvironmentP", "progressViewStyle"]
+- !private ["So18UITraitEnvironmentP", "setProgress"]
+- !private ["So18UITraitEnvironmentP", "wrapped"]
+- !private ["So23UIUserActivityRestoringP", "Style"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "progress"]
+- !private ["So23UIUserActivityRestoringP", "progressViewStyle"]
+- !private ["So23UIUserActivityRestoringP", "setProgress"]
+- !private ["So23UIUserActivityRestoringP", "wrapped"]
+- !private ["So6UIViewC", "Style"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "progress"]
+- !private ["So6UIViewC", "progressViewStyle"]
+- !private ["So6UIViewC", "setProgress"]
+- !private ["So6UIViewC", "wrapped"]
+- ["7SwiftUI19UIViewRepresentableP", "Binding"]
+- ["7SwiftUI19UIViewRepresentableP", "Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Coordinator"]
+- !private ["7SwiftUI19UIViewRepresentableP", "Float"]
+- !private ["7SwiftUI19UIViewRepresentableP", "ProgressIndicatorWrapper"]
+- ["7SwiftUI19UIViewRepresentableP", "UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", ""]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "_identifiedViewTree"]
+- !private ["7SwiftUI19UIViewRepresentableP", "_isAnimating"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeView"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeViewList"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideLayoutTraits"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideSizeThatFits"]
+- !private ["7SwiftUI19UIViewRepresentableP", "_progress"]
+- ["7SwiftUI19UIViewRepresentableP", "_viewListCount"]
+- ["7SwiftUI19UIViewRepresentableP", "body"]
+- ["7SwiftUI19UIViewRepresentableP", "dismantleUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "isAnimating"]
+- ["7SwiftUI19UIViewRepresentableP", "makeCoordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "makeUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "progress"]
+- !private ["7SwiftUI19UIViewRepresentableP", "style"]
+- ["7SwiftUI19UIViewRepresentableP", "updateUIView"]
+- !private ["7SwiftUI16VectorArithmeticP", "init"]
+- ["7SwiftUI4ViewP", "Binding"]
+- ["7SwiftUI4ViewP", "Body"]
+- ["7SwiftUI4ViewP", "Coordinator"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "Default_Coordinator"]
+- !private ["7SwiftUI4ViewP", "Float"]
+- !private ["7SwiftUI4ViewP", "ProgressIndicatorWrapper"]
+- ["7SwiftUI4ViewP", "UIViewType"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_Default_Coordinator"]
+- ["7SwiftUI4ViewP", "_identifiedViewTree"]
+- !private ["7SwiftUI4ViewP", "_isAnimating"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_overrideLayoutTraits"]
+- ["7SwiftUI4ViewP", "_overrideSizeThatFits"]
+- !private ["7SwiftUI4ViewP", "_progress"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- ["7SwiftUI4ViewP", "body"]
+- ["7SwiftUI4ViewP", "dismantleUIView"]
+- !private ["7SwiftUI4ViewP", "isAnimating"]
+- ["7SwiftUI4ViewP", "makeCoordinator"]
+- ["7SwiftUI4ViewP", "makeUIView"]
+- !private ["7SwiftUI4ViewP", "progress"]
+- !private ["7SwiftUI4ViewP", "style"]
+- ["7SwiftUI4ViewP", "updateUIView"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progressViewStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wrapped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Style"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "progress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "progressViewStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setProgress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "wrapped"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Style"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "progress"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "progressViewStyle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setProgress"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "wrapped"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "7SwiftUI10AnimatableP"
+- "SK"
+- !private "SB"
+- "7SwiftUI7BindingV"
+- !private "So15CALayerDelegateP"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "17SDWebImageSwiftUI17ProgressIndicatorV"
+- !private "17SDWebImageSwiftUI24ProgressIndicatorWrapperC"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "17SDWebImageSwiftUI17ProgressIndicatorV5StyleO"
+- !private "So19UIProgressViewStyleV"
+- "17SDWebImageSwiftUI17ProgressIndicatorV5StyleO"
+- !private "So19UIProgressViewStyleV"
+- "17SDWebImageSwiftUI17ProgressIndicatorV5StyleO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So14UIProgressViewC"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "7SwiftUI19UIViewRepresentableP"
+- !private "7SwiftUI16VectorArithmeticP"
+- "7SwiftUI4ViewP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+GIF.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Module/SDWebImageSwiftUI.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/SDWebImageSwiftUI/SDWebImageSwiftUI-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+ForceDecode.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/WebImage/SDWebImage.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImage.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIButton+WebCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/NSButton+WebCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImageView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImageView+HighlightedWebCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIView+WebCacheOperation.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderOperation.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageTransition.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageRep.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloader.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageHEICCoder.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageGIFCoder.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageAPNGCoder.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageIOCoder.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageAWebPCoder.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCachesManager.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageLoadersManager.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCodersManager.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImagePrefetcher.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCoderHelper.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImagePlayer.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageError.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageIndicator.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageGraphics.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+MultiFormat.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d695580523c97a668bea2f9faf0439ba"

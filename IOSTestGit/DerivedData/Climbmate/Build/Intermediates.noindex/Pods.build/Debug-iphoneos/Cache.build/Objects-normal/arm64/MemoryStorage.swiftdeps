@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MemoryStorage"
+provides-nominal:
+- "5Cache13MemoryStorageC"
+- "5Cache13MemoryStorageC10WrappedKeyC"
+provides-member:
+- ["5Cache13MemoryStorageC", ""]
+- ["5Cache13MemoryStorageC10WrappedKeyC", ""]
+- ["5Cache13MemoryStorageC", "setObject"]
+- ["5Cache13MemoryStorageC", "removeAll"]
+- ["5Cache13MemoryStorageC", "removeExpiredObjects"]
+- ["5Cache13MemoryStorageC", "removeObjectIfExpired"]
+- ["5Cache13MemoryStorageC", "removeObject"]
+- ["5Cache13MemoryStorageC", "entry"]
+- ["5Cache13MemoryStorageC", "transform"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Entry"
+- "Expiry"
+- "Hashable"
+- "Int"
+- "Key"
+- "MemoryCapsule"
+- "MemoryConfig"
+- "MemoryStorage"
+- "NSCache"
+- "NSObject"
+- "Set"
+- "StorageAware"
+- !private "StorageError"
+- "Value"
+- "WrappedKey"
+- !private "cache"
+- !private "config"
+- !private "key"
+- !private "keys"
+- !private "removeObject"
+- !private "removeObjectIfExpired"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "countLimit"]
+- !private ["s7CVarArgP", "expiry"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "key"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeAllObjects"]
+- !private ["s7CVarArgP", "removeObject"]
+- !private ["s7CVarArgP", "setObject"]
+- !private ["s7CVarArgP", "totalCostLimit"]
+- ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeAll"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "countLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "expiry"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "setObject"]
+- !private ["s28CustomDebugStringConvertibleP", "totalCostLimit"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "countLimit"]
+- !private ["s23CustomStringConvertibleP", "expiry"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeAllObjects"]
+- !private ["s23CustomStringConvertibleP", "removeObject"]
+- !private ["s23CustomStringConvertibleP", "setObject"]
+- !private ["s23CustomStringConvertibleP", "totalCostLimit"]
+- ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeAll"]
+- ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeAll"]
+- !private ["5Cache5EntryV", "init"]
+- ["SQ", ""]
+- !private ["SQ", "countLimit"]
+- !private ["SQ", "expiry"]
+- !private ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "key"]
+- !private ["SQ", "notFound"]
+- !private ["SQ", "object"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeAllObjects"]
+- !private ["SQ", "removeObject"]
+- !private ["SQ", "setObject"]
+- !private ["SQ", "totalCostLimit"]
+- !private ["SQ", "typeNotMatch"]
+- !private ["s5ErrorP", "notFound"]
+- !private ["s5ErrorP", "typeNotMatch"]
+- !private ["5Cache6ExpiryO", "date"]
+- !private ["5Cache6ExpiryO", "isExpired"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", ""]
+- !private ["SH", "countLimit"]
+- !private ["SH", "expiry"]
+- !private ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "key"]
+- !private ["SH", "notFound"]
+- !private ["SH", "object"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeAllObjects"]
+- !private ["SH", "removeObject"]
+- !private ["SH", "setObject"]
+- !private ["SH", "totalCostLimit"]
+- !private ["SH", "typeNotMatch"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Cache13MemoryCapsuleC", "expiry"]
+- !private ["5Cache13MemoryCapsuleC", "init"]
+- !private ["5Cache13MemoryCapsuleC", "object"]
+- !private ["5Cache12MemoryConfigV", "countLimit"]
+- !private ["5Cache12MemoryConfigV", "expiry"]
+- !private ["5Cache12MemoryConfigV", "totalCostLimit"]
+- ["5Cache13MemoryStorageC", "Bool"]
+- ["5Cache13MemoryStorageC", "Default_Key"]
+- ["5Cache13MemoryStorageC", "Default_Value"]
+- ["5Cache13MemoryStorageC", "Entry"]
+- ["5Cache13MemoryStorageC", "Expiry"]
+- ["5Cache13MemoryStorageC", "Int"]
+- ["5Cache13MemoryStorageC", "Key"]
+- ["5Cache13MemoryStorageC", "MemoryCapsule"]
+- ["5Cache13MemoryStorageC", "MemoryConfig"]
+- ["5Cache13MemoryStorageC", "MemoryStorage"]
+- ["5Cache13MemoryStorageC", "NSCache"]
+- ["5Cache13MemoryStorageC", "NSObject"]
+- ["5Cache13MemoryStorageC", "Set"]
+- !private ["5Cache13MemoryStorageC", "StorageError"]
+- ["5Cache13MemoryStorageC", "Value"]
+- ["5Cache13MemoryStorageC", "WrappedKey"]
+- ["5Cache13MemoryStorageC", ""]
+- ["5Cache13MemoryStorageC", "_Default_Key"]
+- ["5Cache13MemoryStorageC", "_Default_Value"]
+- !private ["5Cache13MemoryStorageC", "cache"]
+- !private ["5Cache13MemoryStorageC", "config"]
+- ["5Cache13MemoryStorageC", "deinit"]
+- ["5Cache13MemoryStorageC", "entry"]
+- ["5Cache13MemoryStorageC", "existsObject"]
+- ["5Cache13MemoryStorageC", "init"]
+- ["5Cache13MemoryStorageC", "isExpiredObject"]
+- !private ["5Cache13MemoryStorageC", "key"]
+- !private ["5Cache13MemoryStorageC", "keys"]
+- ["5Cache13MemoryStorageC", "object"]
+- ["5Cache13MemoryStorageC", "removeAll"]
+- ["5Cache13MemoryStorageC", "removeExpiredObjects"]
+- ["5Cache13MemoryStorageC", "removeObject"]
+- ["5Cache13MemoryStorageC", "removeObjectIfExpired"]
+- ["5Cache13MemoryStorageC", "setObject"]
+- ["5Cache13MemoryStorageC", "transform"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So7NSCacheC", "countLimit"]
+- ["So7NSCacheC", "init"]
+- !private ["So7NSCacheC", "object"]
+- !private ["So7NSCacheC", "removeAllObjects"]
+- !private ["So7NSCacheC", "removeObject"]
+- !private ["So7NSCacheC", "setObject"]
+- !private ["So7NSCacheC", "totalCostLimit"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Key"]
+- !private ["So8NSObjectC", "WrappedKey"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "countLimit"]
+- !private ["So8NSObjectC", "expiry"]
+- ["So8NSObjectC", "hash"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isEqual"]
+- ["So8NSObjectC", "key"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "objectForKey"]
+- !private ["So8NSObjectC", "removeAllObjects"]
+- !private ["So8NSObjectC", "removeObject"]
+- !private ["So8NSObjectC", "removeObjectForKey"]
+- !private ["So8NSObjectC", "setObject"]
+- !private ["So8NSObjectC", "totalCostLimit"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "Key"]
+- !private ["So8NSObjectP", "WrappedKey"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "countLimit"]
+- !private ["So8NSObjectP", "expiry"]
+- ["So8NSObjectP", "hash"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isEqual"]
+- ["So8NSObjectP", "key"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "objectForKey"]
+- !private ["So8NSObjectP", "removeAllObjects"]
+- !private ["So8NSObjectP", "removeObject"]
+- !private ["So8NSObjectP", "removeObjectForKey"]
+- !private ["So8NSObjectP", "setObject"]
+- !private ["So8NSObjectP", "totalCostLimit"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeAll"]
+- ["Sh", "init"]
+- !private ["Sh", "insert"]
+- !private ["Sh", "remove"]
+- !private ["Sh", "removeAll"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "remove"]
+- !private ["s10SetAlgebraP", "removeAll"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- ["5Cache12StorageAwareP", "Default_Key"]
+- ["5Cache12StorageAwareP", "Default_Value"]
+- !private ["5Cache12StorageAwareP", "Entry"]
+- !private ["5Cache12StorageAwareP", "Int"]
+- ["5Cache12StorageAwareP", "Key"]
+- !private ["5Cache12StorageAwareP", "MemoryCapsule"]
+- !private ["5Cache12StorageAwareP", "MemoryStorage"]
+- ["5Cache12StorageAwareP", "NSCache"]
+- ["5Cache12StorageAwareP", "NSObject"]
+- ["5Cache12StorageAwareP", "Set"]
+- !private ["5Cache12StorageAwareP", "StorageError"]
+- ["5Cache12StorageAwareP", "Value"]
+- !private ["5Cache12StorageAwareP", "WrappedKey"]
+- ["5Cache12StorageAwareP", ""]
+- ["5Cache12StorageAwareP", "_Default_Key"]
+- ["5Cache12StorageAwareP", "_Default_Value"]
+- !private ["5Cache12StorageAwareP", "cache"]
+- !private ["5Cache12StorageAwareP", "config"]
+- ["5Cache12StorageAwareP", "entry"]
+- ["5Cache12StorageAwareP", "existsObject"]
+- !private ["5Cache12StorageAwareP", "init"]
+- ["5Cache12StorageAwareP", "isExpiredObject"]
+- !private ["5Cache12StorageAwareP", "key"]
+- !private ["5Cache12StorageAwareP", "keys"]
+- ["5Cache12StorageAwareP", "object"]
+- ["5Cache12StorageAwareP", "removeAll"]
+- ["5Cache12StorageAwareP", "removeExpiredObjects"]
+- ["5Cache12StorageAwareP", "removeObject"]
+- !private ["5Cache12StorageAwareP", "removeObjectIfExpired"]
+- ["5Cache12StorageAwareP", "setObject"]
+- !private ["5Cache12StorageErrorO", ""]
+- !private ["5Cache12StorageErrorO", "notFound"]
+- !private ["5Cache12StorageErrorO", "typeNotMatch"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "Bool"]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "Int"]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "Key"]
+- !private ["5Cache13MemoryStorageC10WrappedKeyC", "WrappedKey"]
+- ["5Cache13MemoryStorageC10WrappedKeyC", ""]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "deinit"]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "hash"]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "init"]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "isEqual"]
+- ["5Cache13MemoryStorageC10WrappedKeyC", "key"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "countLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expiry"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllObjects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalCostLimit"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "countLimit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "expiry"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "key"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "object"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAllObjects"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalCostLimit"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sz"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- !private "5Cache5EntryV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "5Cache6ExpiryO"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "5Cache13MemoryCapsuleC"
+- !private "5Cache12MemoryConfigV"
+- "5Cache13MemoryStorageC"
+- !private "s10MirrorPathP"
+- "So7NSCacheC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "s10SIMDScalarP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "5Cache12StorageAwareP"
+- !private "5Cache12StorageErrorO"
+- !private "Sx"
+- !private "So18UIFocusEnvironmentP"
+- "5Cache13MemoryStorageC10WrappedKeyC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/Cache/Cache-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Cache.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f9bef675f0362b23b96c5f55e00b7cb0"

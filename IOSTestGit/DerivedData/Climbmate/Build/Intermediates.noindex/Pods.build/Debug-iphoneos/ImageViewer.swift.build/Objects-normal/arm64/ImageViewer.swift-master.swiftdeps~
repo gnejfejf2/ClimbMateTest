@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "773096fe764c6dbabcff137b839d5f27"
+build_time: [1610012467, 27972000]
+inputs:
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/ImageCarouselViewController.swift": [1610010709, 619173684]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/ImageItem.swift": [1610010709, 619700468]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/ImageViewerController.swift": [1610010709, 620538699]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/ImageViewerOption.swift": [1610010709, 619400236]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/ImageViewerTheme.swift": [1610010709, 620022016]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/ImageViewerTransitionPresentationManager.swift": [1610010709, 620279836]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/SimpleImageDatasource.swift": [1610010709, 620917443]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/UIImageView_Extensions.swift": [1610010709, 618053093]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/UINavigationBar_Extensions.swift": [1610010709, 618834383]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/ImageViewer.swift/Sources/UIView_Extensions.swift": [1610010709, 618506256]

@@ -1,0 +1,10 @@
+framework module KakaoSDKTemplate {
+  umbrella header "KakaoSDKTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KakaoSDKTemplate.__Swift {
+    exclude header "KakaoSDKTemplate-Swift.h"
+}

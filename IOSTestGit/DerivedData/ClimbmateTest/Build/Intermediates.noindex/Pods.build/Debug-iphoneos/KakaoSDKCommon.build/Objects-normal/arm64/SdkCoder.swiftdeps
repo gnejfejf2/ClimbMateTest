@@ -1,0 +1,162 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SdkJSONEncoder"
+- "SdkJSONDecoder"
+provides-nominal:
+- "14KakaoSDKCommon14SdkJSONEncoderC"
+- "14KakaoSDKCommon14SdkJSONDecoderC"
+provides-member:
+- ["14KakaoSDKCommon14SdkJSONEncoderC", ""]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", ""]
+provides-dynamic-lookup:
+- "custom"
+- "customIso8601Date"
+- "customSecondsSince1970"
+- "default"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "DateDecodingStrategy"
+- "JSONDecoder"
+- "JSONEncoder"
+- "SdkJSONDecoder"
+- "SdkJSONEncoder"
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "iso8601"]
+- !private ["s28CustomDebugStringConvertibleP", "secondsSince1970"]
+- !private ["s17CustomReflectableP", "iso8601"]
+- !private ["s17CustomReflectableP", "secondsSince1970"]
+- !private ["9Alamofire11DataDecoderP", "SdkJSONDecoder"]
+- ["9Alamofire11DataDecoderP", ""]
+- !private ["9Alamofire11DataDecoderP", "dateDecodingStrategy"]
+- !private ["9Alamofire11DataDecoderP", "init"]
+- !private ["9Alamofire11DataDecoderP", "keyDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC20DateDecodingStrategyO", "iso8601"]
+- !private ["10Foundation11JSONDecoderC20DateDecodingStrategyO", "secondsSince1970"]
+- !private ["Se", "iso8601"]
+- !private ["Se", "secondsSince1970"]
+- !private ["SE", "iso8601"]
+- !private ["SE", "secondsSince1970"]
+- !private ["SQ", ""]
+- !private ["SQ", "iso8601"]
+- !private ["SQ", "secondsSince1970"]
+- !private ["s23ExpressibleByNilLiteralP", "iso8601"]
+- !private ["s23ExpressibleByNilLiteralP", "secondsSince1970"]
+- !private ["SH", "iso8601"]
+- !private ["SH", "secondsSince1970"]
+- ["10Foundation11JSONDecoderC", "Bool"]
+- ["10Foundation11JSONDecoderC", "DateDecodingStrategy"]
+- ["10Foundation11JSONDecoderC", "SdkJSONDecoder"]
+- ["10Foundation11JSONDecoderC", ""]
+- ["10Foundation11JSONDecoderC", "custom"]
+- ["10Foundation11JSONDecoderC", "customIso8601Date"]
+- ["10Foundation11JSONDecoderC", "customSecondsSince1970"]
+- !private ["10Foundation11JSONDecoderC", "dateDecodingStrategy"]
+- ["10Foundation11JSONDecoderC", "default"]
+- ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONDecoderC", "keyDecodingStrategy"]
+- ["10Foundation11JSONEncoderC", "Bool"]
+- ["10Foundation11JSONEncoderC", "SdkJSONEncoder"]
+- ["10Foundation11JSONEncoderC", ""]
+- ["10Foundation11JSONEncoderC", "custom"]
+- ["10Foundation11JSONEncoderC", "default"]
+- ["10Foundation11JSONEncoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "keyEncodingStrategy"]
+- !private ["10Foundation11JSONDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
+- !private ["10Foundation11JSONEncoderC19KeyEncodingStrategyO", "convertToSnakeCase"]
+- !private ["Sq", "iso8601"]
+- !private ["Sq", "secondsSince1970"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "Bool"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "DateDecodingStrategy"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "SdkJSONDecoder"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "custom"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "customIso8601Date"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "customSecondsSince1970"]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", "dateDecodingStrategy"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "default"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "deinit"]
+- ["14KakaoSDKCommon14SdkJSONDecoderC", "init"]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", "keyDecodingStrategy"]
+- ["14KakaoSDKCommon14SdkJSONEncoderC", "Bool"]
+- ["14KakaoSDKCommon14SdkJSONEncoderC", "SdkJSONEncoder"]
+- ["14KakaoSDKCommon14SdkJSONEncoderC", "custom"]
+- ["14KakaoSDKCommon14SdkJSONEncoderC", "default"]
+- ["14KakaoSDKCommon14SdkJSONEncoderC", "deinit"]
+- ["14KakaoSDKCommon14SdkJSONEncoderC", "init"]
+- !private ["14KakaoSDKCommon14SdkJSONEncoderC", "keyEncodingStrategy"]
+- !private ["7Combine15TopLevelDecoderP", "SdkJSONDecoder"]
+- ["7Combine15TopLevelDecoderP", ""]
+- !private ["7Combine15TopLevelDecoderP", "dateDecodingStrategy"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelDecoderP", "keyDecodingStrategy"]
+- !private ["7Combine15TopLevelEncoderP", "SdkJSONEncoder"]
+- ["7Combine15TopLevelEncoderP", ""]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "keyEncodingStrategy"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "iso8601"]
+- !private ["s21_ObjectiveCBridgeableP", "secondsSince1970"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "9Alamofire11DataDecoderP"
+- !private "10Foundation11JSONDecoderC20DateDecodingStrategyO"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- "10Foundation11JSONDecoderC"
+- "10Foundation11JSONEncoderC"
+- !private "10Foundation11JSONDecoderC19KeyDecodingStrategyO"
+- !private "10Foundation11JSONEncoderC19KeyEncodingStrategyO"
+- !private "Sq"
+- "14KakaoSDKCommon14SdkJSONDecoderC"
+- "14KakaoSDKCommon14SdkJSONEncoderC"
+- "7Combine15TopLevelDecoderP"
+- "7Combine15TopLevelEncoderP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/KakaoSDKCommon/KakaoSDKCommon-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/KakaoSDKCommon.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKCommon.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6c6484cda854dc5d219b501415dedb05"

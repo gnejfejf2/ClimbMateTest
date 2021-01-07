@@ -1,0 +1,10 @@
+framework module KakaoSDKAuth {
+  umbrella header "KakaoSDKAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KakaoSDKAuth.__Swift {
+    exclude header "KakaoSDKAuth-Swift.h"
+}

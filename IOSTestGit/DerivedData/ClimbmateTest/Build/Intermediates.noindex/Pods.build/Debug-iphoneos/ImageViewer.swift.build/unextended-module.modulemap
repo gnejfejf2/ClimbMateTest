@@ -1,0 +1,10 @@
+framework module ImageViewer_swift {
+  umbrella header "ImageViewer.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ImageViewer_swift.__Swift {
+    exclude header "ImageViewer_swift-Swift.h"
+}

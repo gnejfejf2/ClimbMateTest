@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "c9a881c073c0e386eeda26ebf5d594b8"
+build_time: [1610012463, 574432000]
+inputs:
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1609835633, 0]

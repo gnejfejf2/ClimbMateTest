@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>B052D344-4440-4B1B-BB9E-6779E06A113D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B052D344-4440-4B1B-BB9E-6779E06A113D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>631705769.06066203</real>
+			<key>timeStoppedRecording</key>
+			<real>631705805.66749203</real>
+			<key>title</key>
+			<string>Build ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>B052D344-4440-4B1B-BB9E-6779E06A113D</string>
+		</dict>
+		<key>C1FC9E85-7864-4F68-A439-1268E91B9B35</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C1FC9E85-7864-4F68-A439-1268E91B9B35.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>631705994.04168296</real>
+			<key>timeStoppedRecording</key>
+			<real>631706002.11389506</real>
+			<key>title</key>
+			<string>Build ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>C1FC9E85-7864-4F68-A439-1268E91B9B35</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

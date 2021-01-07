@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "68986a901424c0028a7419fcca8614fc"
+build_time: [1610012984, 356736000]
+inputs:
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/AssetManager.swift": [1610010709, 641899036]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Library/Color+Extensions.swift": [1610010709, 640856778]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Views/FooterView.swift": [1610010709, 642769765]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Views/HeaderView.swift": [1610010709, 643196702]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Views/InfoLabel.swift": [1610010709, 642982477]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Library/LayoutConfigurable.swift": [1610010709, 640101341]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/LightboxConfig.swift": [1610010709, 641475676]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/LightboxController.swift": [1610010709, 639605612]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/LightboxImage.swift": [1610010709, 642120369]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/LightboxImageStub.swift": [1610010709, 641072742]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Library/LightboxTransition.swift": [1610010709, 640589531]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Views/LoadingIndicator.swift": [1610010709, 643453697]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Views/PageView.swift": [1610010709, 643662020]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Lightbox/Source/Library/UIView+Gradient.swift": [1610010709, 640339012]

@@ -1,0 +1,11 @@
+framework module ImageViewer_swift {
+  umbrella header "ImageViewer.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ImageViewer_swift.Swift {
+    header "ImageViewer_swift-Swift.h"
+    requires objc
+}

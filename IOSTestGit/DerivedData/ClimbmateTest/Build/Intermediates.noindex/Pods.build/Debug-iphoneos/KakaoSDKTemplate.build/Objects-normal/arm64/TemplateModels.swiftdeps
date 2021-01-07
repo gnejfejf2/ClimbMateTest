@@ -1,0 +1,488 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Templatable"
+- "Social"
+- "Button"
+- "Link"
+- "Content"
+- "CommerceDetail"
+- "FeedTemplate"
+- "ListTemplate"
+- "LocationTemplate"
+- "CommerceTemplate"
+- "TextTemplate"
+provides-nominal:
+- "16KakaoSDKTemplate11TemplatableP"
+- "16KakaoSDKTemplate6SocialV"
+- "16KakaoSDKTemplate6ButtonV"
+- "16KakaoSDKTemplate4LinkV"
+- "16KakaoSDKTemplate7ContentV"
+- "16KakaoSDKTemplate14CommerceDetailV"
+- "16KakaoSDKTemplate12FeedTemplateV"
+- "16KakaoSDKTemplate12ListTemplateV"
+- "16KakaoSDKTemplate16LocationTemplateV"
+- "16KakaoSDKTemplate16CommerceTemplateV"
+- "16KakaoSDKTemplate12TextTemplateV"
+provides-member:
+- ["16KakaoSDKTemplate11TemplatableP", ""]
+- ["16KakaoSDKTemplate6SocialV", ""]
+- ["16KakaoSDKTemplate6ButtonV", ""]
+- ["16KakaoSDKTemplate4LinkV", ""]
+- ["16KakaoSDKTemplate7ContentV", ""]
+- ["16KakaoSDKTemplate14CommerceDetailV", ""]
+- ["16KakaoSDKTemplate12FeedTemplateV", ""]
+- ["16KakaoSDKTemplate12ListTemplateV", ""]
+- ["16KakaoSDKTemplate16LocationTemplateV", ""]
+- ["16KakaoSDKTemplate16CommerceTemplateV", ""]
+- ["16KakaoSDKTemplate12TextTemplateV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Button"
+- "Codable"
+- "CommerceDetail"
+- "CommerceTemplate"
+- "Content"
+- "FeedTemplate"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Link"
+- "ListTemplate"
+- "LocationTemplate"
+- !private "SdkJSONEncoder"
+- !private "SdkUtils"
+- "Social"
+- "String"
+- !private "StringLiteralType"
+- "Templatable"
+- "TextTemplate"
+- "URL"
+- !private "~="
+depends-member:
+- ["SK", ""]
+- ["16KakaoSDKTemplate6ButtonV", "CodingKeys"]
+- ["16KakaoSDKTemplate6ButtonV", "Link"]
+- ["16KakaoSDKTemplate6ButtonV", "String"]
+- ["16KakaoSDKTemplate6ButtonV", ""]
+- ["16KakaoSDKTemplate6ButtonV", "encode"]
+- ["16KakaoSDKTemplate6ButtonV", "init"]
+- ["16KakaoSDKTemplate6ButtonV", "link"]
+- ["16KakaoSDKTemplate6ButtonV", "title"]
+- !private ["s7CVarArgP", "queryParameters"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["Sl", ""]
+- !private ["Sl", "queryParameters"]
+- ["16KakaoSDKTemplate14CommerceDetailV", "CodingKeys"]
+- ["16KakaoSDKTemplate14CommerceDetailV", "Int"]
+- ["16KakaoSDKTemplate14CommerceDetailV", ""]
+- ["16KakaoSDKTemplate14CommerceDetailV", "discountPrice"]
+- ["16KakaoSDKTemplate14CommerceDetailV", "discountRate"]
+- ["16KakaoSDKTemplate14CommerceDetailV", "encode"]
+- ["16KakaoSDKTemplate14CommerceDetailV", "fixedDiscountPrice"]
+- ["16KakaoSDKTemplate14CommerceDetailV", "init"]
+- ["16KakaoSDKTemplate14CommerceDetailV", "regularPrice"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "Button"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "CodingKeys"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "CommerceDetail"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "Content"]
+- !private ["16KakaoSDKTemplate16CommerceTemplateV", "SdkJSONEncoder"]
+- !private ["16KakaoSDKTemplate16CommerceTemplateV", "SdkUtils"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "String"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", ""]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "buttonTitle"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "buttons"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "commerce"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "content"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "encode"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "init"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "objectType"]
+- ["16KakaoSDKTemplate16CommerceTemplateV", "toJsonObject"]
+- ["SL", ""]
+- ["16KakaoSDKTemplate7ContentV", "CodingKeys"]
+- ["16KakaoSDKTemplate7ContentV", "Int"]
+- ["16KakaoSDKTemplate7ContentV", "Link"]
+- ["16KakaoSDKTemplate7ContentV", "String"]
+- ["16KakaoSDKTemplate7ContentV", "URL"]
+- ["16KakaoSDKTemplate7ContentV", ""]
+- ["16KakaoSDKTemplate7ContentV", "description"]
+- ["16KakaoSDKTemplate7ContentV", "encode"]
+- ["16KakaoSDKTemplate7ContentV", "imageHeight"]
+- ["16KakaoSDKTemplate7ContentV", "imageUrl"]
+- ["16KakaoSDKTemplate7ContentV", "imageWidth"]
+- ["16KakaoSDKTemplate7ContentV", "init"]
+- ["16KakaoSDKTemplate7ContentV", "link"]
+- ["16KakaoSDKTemplate7ContentV", "title"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "queryParameters"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "queryParameters"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "queryParameters"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "SdkJSONEncoder"]
+- !private ["Se", "SdkUtils"]
+- ["Se", ""]
+- !private ["Se", "address"]
+- !private ["Se", "addressTitle"]
+- !private ["Se", "androidExecutionParams"]
+- !private ["Se", "buttonTitle"]
+- !private ["Se", "buttons"]
+- !private ["Se", "commentCount"]
+- !private ["Se", "commerce"]
+- !private ["Se", "content"]
+- !private ["Se", "contents"]
+- !private ["Se", "description"]
+- !private ["Se", "discountPrice"]
+- !private ["Se", "discountRate"]
+- ["Se", "encode"]
+- !private ["Se", "fixedDiscountPrice"]
+- !private ["Se", "headerLink"]
+- !private ["Se", "headerTitle"]
+- !private ["Se", "imageHeight"]
+- !private ["Se", "imageUrl"]
+- !private ["Se", "imageWidth"]
+- ["Se", "init"]
+- !private ["Se", "iosExecutionParams"]
+- !private ["Se", "likeCount"]
+- !private ["Se", "link"]
+- !private ["Se", "mobileWebUrl"]
+- !private ["Se", "objectType"]
+- !private ["Se", "queryParameters"]
+- !private ["Se", "regularPrice"]
+- !private ["Se", "sharedCount"]
+- !private ["Se", "social"]
+- !private ["Se", "subscriberCount"]
+- !private ["Se", "text"]
+- !private ["Se", "title"]
+- ["Se", "toJsonObject"]
+- !private ["Se", "viewCount"]
+- !private ["Se", "webUrl"]
+- !private ["s7DecoderP", "container"]
+- !private ["SD", "queryParameters"]
+- !private ["SE", "SdkJSONEncoder"]
+- !private ["SE", "SdkUtils"]
+- ["SE", ""]
+- !private ["SE", "address"]
+- !private ["SE", "addressTitle"]
+- !private ["SE", "androidExecutionParams"]
+- !private ["SE", "buttonTitle"]
+- !private ["SE", "buttons"]
+- !private ["SE", "commentCount"]
+- !private ["SE", "commerce"]
+- !private ["SE", "content"]
+- !private ["SE", "contents"]
+- !private ["SE", "description"]
+- !private ["SE", "discountPrice"]
+- !private ["SE", "discountRate"]
+- ["SE", "encode"]
+- !private ["SE", "fixedDiscountPrice"]
+- !private ["SE", "headerLink"]
+- !private ["SE", "headerTitle"]
+- !private ["SE", "imageHeight"]
+- !private ["SE", "imageUrl"]
+- !private ["SE", "imageWidth"]
+- ["SE", "init"]
+- !private ["SE", "iosExecutionParams"]
+- !private ["SE", "likeCount"]
+- !private ["SE", "link"]
+- !private ["SE", "mobileWebUrl"]
+- !private ["SE", "objectType"]
+- !private ["SE", "queryParameters"]
+- !private ["SE", "regularPrice"]
+- !private ["SE", "sharedCount"]
+- !private ["SE", "social"]
+- !private ["SE", "subscriberCount"]
+- !private ["SE", "text"]
+- !private ["SE", "title"]
+- ["SE", "toJsonObject"]
+- !private ["SE", "viewCount"]
+- !private ["SE", "webUrl"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "queryParameters"]
+- ["SQ", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "queryParameters"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["16KakaoSDKTemplate12FeedTemplateV", "Button"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "CodingKeys"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "Content"]
+- !private ["16KakaoSDKTemplate12FeedTemplateV", "SdkJSONEncoder"]
+- !private ["16KakaoSDKTemplate12FeedTemplateV", "SdkUtils"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "Social"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "String"]
+- ["16KakaoSDKTemplate12FeedTemplateV", ""]
+- ["16KakaoSDKTemplate12FeedTemplateV", "buttonTitle"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "buttons"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "content"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "encode"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "init"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "objectType"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "social"]
+- ["16KakaoSDKTemplate12FeedTemplateV", "toJsonObject"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "queryParameters"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["10Foundation11JSONEncoderC", ""]
+- !private ["10Foundation11JSONEncoderC", "custom"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["16KakaoSDKTemplate4LinkV", "CodingKeys"]
+- ["16KakaoSDKTemplate4LinkV", "String"]
+- ["16KakaoSDKTemplate4LinkV", "URL"]
+- ["16KakaoSDKTemplate4LinkV", ""]
+- ["16KakaoSDKTemplate4LinkV", "androidExecutionParams"]
+- ["16KakaoSDKTemplate4LinkV", "encode"]
+- ["16KakaoSDKTemplate4LinkV", "init"]
+- ["16KakaoSDKTemplate4LinkV", "iosExecutionParams"]
+- ["16KakaoSDKTemplate4LinkV", "mobileWebUrl"]
+- ["16KakaoSDKTemplate4LinkV", "webUrl"]
+- ["16KakaoSDKTemplate12ListTemplateV", "Button"]
+- ["16KakaoSDKTemplate12ListTemplateV", "CodingKeys"]
+- ["16KakaoSDKTemplate12ListTemplateV", "Content"]
+- ["16KakaoSDKTemplate12ListTemplateV", "Link"]
+- !private ["16KakaoSDKTemplate12ListTemplateV", "SdkJSONEncoder"]
+- !private ["16KakaoSDKTemplate12ListTemplateV", "SdkUtils"]
+- ["16KakaoSDKTemplate12ListTemplateV", "String"]
+- ["16KakaoSDKTemplate12ListTemplateV", ""]
+- ["16KakaoSDKTemplate12ListTemplateV", "buttonTitle"]
+- ["16KakaoSDKTemplate12ListTemplateV", "buttons"]
+- ["16KakaoSDKTemplate12ListTemplateV", "contents"]
+- ["16KakaoSDKTemplate12ListTemplateV", "encode"]
+- ["16KakaoSDKTemplate12ListTemplateV", "headerLink"]
+- ["16KakaoSDKTemplate12ListTemplateV", "headerTitle"]
+- ["16KakaoSDKTemplate12ListTemplateV", "init"]
+- ["16KakaoSDKTemplate12ListTemplateV", "objectType"]
+- ["16KakaoSDKTemplate12ListTemplateV", "toJsonObject"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "Button"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "CodingKeys"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "Content"]
+- !private ["16KakaoSDKTemplate16LocationTemplateV", "SdkJSONEncoder"]
+- !private ["16KakaoSDKTemplate16LocationTemplateV", "SdkUtils"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "Social"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "String"]
+- ["16KakaoSDKTemplate16LocationTemplateV", ""]
+- ["16KakaoSDKTemplate16LocationTemplateV", "address"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "addressTitle"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "buttonTitle"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "buttons"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "content"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "encode"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "init"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "objectType"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "social"]
+- ["16KakaoSDKTemplate16LocationTemplateV", "toJsonObject"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- !private ["14KakaoSDKCommon14SdkJSONEncoderC", "custom"]
+- !private ["14KakaoSDKCommon14SdkJSONEncoderC", "encode"]
+- !private ["14KakaoSDKCommon8SdkUtilsC", "toJsonObject"]
+- ["ST", ""]
+- !private ["ST", "queryParameters"]
+- ["16KakaoSDKTemplate6SocialV", "CodingKeys"]
+- ["16KakaoSDKTemplate6SocialV", "Int"]
+- ["16KakaoSDKTemplate6SocialV", ""]
+- ["16KakaoSDKTemplate6SocialV", "commentCount"]
+- ["16KakaoSDKTemplate6SocialV", "encode"]
+- ["16KakaoSDKTemplate6SocialV", "init"]
+- ["16KakaoSDKTemplate6SocialV", "likeCount"]
+- ["16KakaoSDKTemplate6SocialV", "sharedCount"]
+- ["16KakaoSDKTemplate6SocialV", "subscriberCount"]
+- ["16KakaoSDKTemplate6SocialV", "viewCount"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "SdkJSONEncoder"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "SdkUtils"]
+- ["16KakaoSDKTemplate11TemplatableP", "String"]
+- ["16KakaoSDKTemplate11TemplatableP", ""]
+- !private ["16KakaoSDKTemplate11TemplatableP", "address"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "addressTitle"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "buttonTitle"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "buttons"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "commerce"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "content"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "contents"]
+- ["16KakaoSDKTemplate11TemplatableP", "encode"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "headerLink"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "headerTitle"]
+- ["16KakaoSDKTemplate11TemplatableP", "init"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "link"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "objectType"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "social"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "text"]
+- ["16KakaoSDKTemplate11TemplatableP", "toJsonObject"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["16KakaoSDKTemplate12TextTemplateV", "Button"]
+- ["16KakaoSDKTemplate12TextTemplateV", "CodingKeys"]
+- ["16KakaoSDKTemplate12TextTemplateV", "Link"]
+- !private ["16KakaoSDKTemplate12TextTemplateV", "SdkJSONEncoder"]
+- !private ["16KakaoSDKTemplate12TextTemplateV", "SdkUtils"]
+- ["16KakaoSDKTemplate12TextTemplateV", "String"]
+- ["16KakaoSDKTemplate12TextTemplateV", ""]
+- ["16KakaoSDKTemplate12TextTemplateV", "buttonTitle"]
+- ["16KakaoSDKTemplate12TextTemplateV", "buttons"]
+- ["16KakaoSDKTemplate12TextTemplateV", "encode"]
+- ["16KakaoSDKTemplate12TextTemplateV", "init"]
+- ["16KakaoSDKTemplate12TextTemplateV", "link"]
+- ["16KakaoSDKTemplate12TextTemplateV", "objectType"]
+- ["16KakaoSDKTemplate12TextTemplateV", "text"]
+- ["16KakaoSDKTemplate12TextTemplateV", "toJsonObject"]
+- !private ["7Combine15TopLevelEncoderP", "custom"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "queryParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "queryParameters"]
+depends-nominal:
+- "SK"
+- "16KakaoSDKTemplate6ButtonV"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "16KakaoSDKTemplate14CommerceDetailV"
+- "16KakaoSDKTemplate16CommerceTemplateV"
+- "SL"
+- "16KakaoSDKTemplate7ContentV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "16KakaoSDKTemplate12FeedTemplateV"
+- "SH"
+- !private "s6HasherV"
+- "10Foundation11JSONEncoderC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "16KakaoSDKTemplate4LinkV"
+- "16KakaoSDKTemplate12ListTemplateV"
+- "16KakaoSDKTemplate16LocationTemplateV"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- !private "14KakaoSDKCommon14SdkJSONEncoderC"
+- !private "14KakaoSDKCommon8SdkUtilsC"
+- "ST"
+- "16KakaoSDKTemplate6SocialV"
+- "16KakaoSDKTemplate11TemplatableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "16KakaoSDKTemplate12TextTemplateV"
+- !private "7Combine15TopLevelEncoderP"
+- "So18UIFocusEnvironmentP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Modules/KakaoSDKCommon.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/KakaoSDKTemplate/KakaoSDKTemplate-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/KakaoSDKCommon/KakaoSDKCommon-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKTemplate/sources/KakaoSDKTemplate/KakaoSDKTemplate.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/KakaoSDKCommon.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Headers/KakaoSDKCommon-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKTemplate.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKCommon.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "772c60dcda74bf8874cf1b6a20ad23be"

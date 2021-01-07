@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.m \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target\ Support\ Files/SDWebImage/SDWebImage-prefix.pch \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloader.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Private/SDAssociatedObject.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Core/SDWebImageError.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImage/SDWebImage/Private/SDmetamacros.h

@@ -1,0 +1,189 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AsyncStorage"
+provides-nominal:
+- "5Cache12AsyncStorageC"
+provides-member:
+- ["5Cache12AsyncStorageC", ""]
+- ["5Cache12AsyncStorageC", "entry"]
+- ["5Cache12AsyncStorageC", "removeObject"]
+- ["5Cache12AsyncStorageC", "setObject"]
+- ["5Cache12AsyncStorageC", "removeAll"]
+- ["5Cache12AsyncStorageC", "removeExpiredObjects"]
+- ["5Cache12AsyncStorageC", "object"]
+- ["5Cache12AsyncStorageC", "existsObject"]
+- ["5Cache12AsyncStorageC", "transform"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "AsyncStorage"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DispatchQueue"
+- "Entry"
+- "Expiry"
+- "Hashable"
+- "HybridStorage"
+- "Key"
+- "Result"
+- "StorageError"
+- "Transformer"
+- "Value"
+- "Void"
+- !private "entry"
+- !private "innerStorage"
+- !private "object"
+- !private "serialQueue"
+depends-member:
+- ["5Cache12AsyncStorageC", "AsyncStorage"]
+- ["5Cache12AsyncStorageC", "Bool"]
+- ["5Cache12AsyncStorageC", "DispatchQueue"]
+- ["5Cache12AsyncStorageC", "Entry"]
+- ["5Cache12AsyncStorageC", "Expiry"]
+- ["5Cache12AsyncStorageC", "HybridStorage"]
+- ["5Cache12AsyncStorageC", "Result"]
+- !private ["5Cache12AsyncStorageC", "StorageError"]
+- ["5Cache12AsyncStorageC", "Transformer"]
+- ["5Cache12AsyncStorageC", "Void"]
+- ["5Cache12AsyncStorageC", ""]
+- ["5Cache12AsyncStorageC", "deinit"]
+- ["5Cache12AsyncStorageC", "entry"]
+- ["5Cache12AsyncStorageC", "existsObject"]
+- ["5Cache12AsyncStorageC", "init"]
+- ["5Cache12AsyncStorageC", "innerStorage"]
+- ["5Cache12AsyncStorageC", "object"]
+- ["5Cache12AsyncStorageC", "removeAll"]
+- ["5Cache12AsyncStorageC", "removeExpiredObjects"]
+- ["5Cache12AsyncStorageC", "removeObject"]
+- ["5Cache12AsyncStorageC", "serialQueue"]
+- ["5Cache12AsyncStorageC", "setObject"]
+- ["5Cache12AsyncStorageC", "transform"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["5Cache5EntryV", "object"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "deallocated"]
+- !private ["s5ErrorP", "deallocated"]
+- !private ["SH", "async"]
+- !private ["SH", "deallocated"]
+- !private ["5Cache13HybridStorageC", ""]
+- !private ["5Cache13HybridStorageC", "entry"]
+- !private ["5Cache13HybridStorageC", "removeAll"]
+- !private ["5Cache13HybridStorageC", "removeExpiredObjects"]
+- !private ["5Cache13HybridStorageC", "removeObject"]
+- !private ["5Cache13HybridStorageC", "setObject"]
+- !private ["5Cache13HybridStorageC", "transform"]
+- !private ["5Cache22KeyObservationRegistryP", "entry"]
+- !private ["5Cache22KeyObservationRegistryP", "removeAll"]
+- !private ["5Cache22KeyObservationRegistryP", "removeExpiredObjects"]
+- !private ["5Cache22KeyObservationRegistryP", "removeObject"]
+- !private ["5Cache22KeyObservationRegistryP", "setObject"]
+- !private ["5Cache22KeyObservationRegistryP", "transform"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["5Cache6ResultO", "error"]
+- !private ["5Cache6ResultO", "map"]
+- !private ["5Cache6ResultO", "value"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["5Cache12StorageAwareP", "entry"]
+- !private ["5Cache12StorageAwareP", "removeAll"]
+- !private ["5Cache12StorageAwareP", "removeExpiredObjects"]
+- !private ["5Cache12StorageAwareP", "removeObject"]
+- !private ["5Cache12StorageAwareP", "setObject"]
+- !private ["5Cache12StorageAwareP", "transform"]
+- !private ["5Cache12StorageErrorO", ""]
+- !private ["5Cache12StorageErrorO", "deallocated"]
+- !private ["5Cache26StorageObservationRegistryP", "entry"]
+- !private ["5Cache26StorageObservationRegistryP", "removeAll"]
+- !private ["5Cache26StorageObservationRegistryP", "removeExpiredObjects"]
+- !private ["5Cache26StorageObservationRegistryP", "removeObject"]
+- !private ["5Cache26StorageObservationRegistryP", "setObject"]
+- !private ["5Cache26StorageObservationRegistryP", "transform"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+depends-nominal:
+- "5Cache12AsyncStorageC"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "5Cache5EntryV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "SH"
+- !private "5Cache13HybridStorageC"
+- !private "5Cache22KeyObservationRegistryP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- !private "5Cache6ResultO"
+- !private "7Combine9SchedulerP"
+- !private "5Cache12StorageAwareP"
+- !private "5Cache12StorageErrorO"
+- !private "5Cache26StorageObservationRegistryP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/Cache/Cache-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Cache.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ccc859be8f14703f2cfdc1bc620ebf1a"

@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "3bf2b3a082839d6ee72108574f24ab09"
+build_time: [1610012986, 557746000]
+inputs:
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKUser/sources/KakaoSDKUser/model/AccessTokenInfo.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKUser/sources/KakaoSDKUser/model/User.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKUser/sources/KakaoSDKUser/UserApi.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKUser/sources/KakaoSDKUser/model/UserServiceTerms.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKUser/sources/KakaoSDKUser/model/UserShippingAddresses.swift": [1609835633, 0]

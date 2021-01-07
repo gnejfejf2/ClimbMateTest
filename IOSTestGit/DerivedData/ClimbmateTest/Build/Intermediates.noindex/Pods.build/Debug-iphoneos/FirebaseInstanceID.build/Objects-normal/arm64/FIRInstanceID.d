@@ -1,0 +1,51 @@
+dependencies: \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID.m \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseInstanceID.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseInstallations/Source/Library/Private/FirebaseInstallationsInternal.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseInstallations.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsVersion.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallations.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FirebaseInstallations.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target\ Support\ Files/FirebaseInstallations/FirebaseInstallations-umbrella.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceID+Private.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceIDCheckinPreferences.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCombinedHandler.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDDefines.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRIMessageCode.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDVersionUtilities.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FirebaseCoreInternal.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRAppInternal.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRErrors.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRErrorCode.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRComponent.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRComponentContainer.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRComponentType.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRLibrary.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRDependency.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRHeartbeatInfo.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIRLogger.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/FirebaseCore/Sources/Private/FIROptionsInternal.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/GoogleUtilities/Environment/Private/GULAppEnvironmentUtil.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/GoogleUtilities/UserDefaults/Private/GULUserDefaults.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.h

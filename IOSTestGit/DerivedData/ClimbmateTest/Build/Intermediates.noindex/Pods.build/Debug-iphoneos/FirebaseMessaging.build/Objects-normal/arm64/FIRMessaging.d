@@ -1,0 +1,55 @@
+dependencies: \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessaging.m \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseMessaging.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseInstanceID.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceID_Private.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FirebaseInstanceID.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target\ Support\ Files/FirebaseInstanceID/FirebaseInstanceID-umbrella.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FIRMessaging.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FIRMessagingExtensionHelper.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FirebaseCoreInternal.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRAppInternal.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRErrors.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRErrorCode.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRComponent.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRComponentContainer.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRComponentType.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRLibrary.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRDependency.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRHeartbeatInfo.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIRLogger.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseCore/Sources/Private/FIROptionsInternal.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Interop/FIRMessagingInterop.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GoogleUtilities.build/module.modulemap \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULApplication.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/GoogleUtilities/UserDefaults/Private/GULUserDefaults.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/Interop/Analytics/Public/FIRAnalyticsInterop.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingAnalytics.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingClient.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingConstants.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingContextManagerService.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingDataMessageManager.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingDefines.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingLogger.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMMessageCode.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingPubSub.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingReceiver.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingRemoteNotificationsProxy.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingRmqManager.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingSyncMessageManager.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingUtilities.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingVersionUtilities.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessaging_Private.h \
+  /Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/FirebaseMessaging/FirebaseMessaging/Sources/NSError+FIRMessaging.h

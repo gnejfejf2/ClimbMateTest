@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "a76a0f6ece62b27090dba1a378bbcfce"
+build_time: [1610012479, 568306000]
+inputs:
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKLink/sources/KakaoSDKLink/model/ImageUploadResult.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKLink/sources/KakaoSDKLink/LinkApi.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKLink/sources/KakaoSDKLink/model/LinkResult.swift": [1609835633, 0]
+  "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKLink/sources/KakaoSDKLink/model/ValidationResult.swift": [1609835633, 0]

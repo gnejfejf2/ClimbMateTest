@@ -1,0 +1,446 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AuthRequestRetrier"
+provides-nominal:
+- "12KakaoSDKAuth18AuthRequestRetrierC"
+provides-member:
+- ["12KakaoSDKAuth18AuthRequestRetrierC", ""]
+provides-dynamic-lookup:
+- "agreementRequestsToRetry"
+- "errorLock"
+- "getSdkError"
+- "isRefreshing"
+- "requestsToRetry"
+- "retry"
+- "shouldRefreshToken"
+depends-top-level:
+- !private "!"
+- "!="
+- "AFError"
+- !private "AUTH"
+- "AssignmentPrecedence"
+- !private "AuthApi"
+- !private "AuthController"
+- "AuthRequestRetrier"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSLock"
+- "Request"
+- "RequestInterceptor"
+- "RetryResult"
+- "SdkError"
+- "SdkLog"
+- "Session"
+- !private "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "errorLock"
+- !private "getSdkError"
+- !private "isRefreshing"
+- !private "requestsToRetry"
+- !private "shouldRefreshToken"
+depends-member:
+- ["9Alamofire7AFErrorO", "responseValidationFailed"]
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "forEach"]
+- !private ["9Alamofire0A8ExtendedP", "removeAll"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "InsufficientScope"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "InvalidAccessToken"]
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "removeAll"]
+- !private ["12KakaoSDKAuth4AuthC", "tokenManager"]
+- !private ["12KakaoSDKAuth7AuthApiC", "refreshAccessToken"]
+- !private ["12KakaoSDKAuth7AuthApiC", "shared"]
+- !private ["12KakaoSDKAuth14AuthControllerC", "authorizeWithAuthenticationSession"]
+- !private ["12KakaoSDKAuth14AuthControllerC", "shared"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "AFError"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "AUTH"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "AuthApi"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "AuthController"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "Bool"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "Error"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "NSLock"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "Request"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "RetryResult"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "SdkError"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "SdkLog"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "Session"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "String"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "Void"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", ""]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "adapt"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "agreementRequestsToRetry"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "deinit"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "errorLock"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "getSdkError"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "init"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "isRefreshing"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "requestsToRetry"]
+- ["12KakaoSDKAuth18AuthRequestRetrierC", "retry"]
+- !private ["12KakaoSDKAuth18AuthRequestRetrierC", "shouldRefreshToken"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- ["Se", "InsufficientScope"]
+- ["Se", "InvalidAccessToken"]
+- !private ["Se", "append"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "refreshToken"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "requiredScopes"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "InsufficientScope"]
+- ["SE", "InvalidAccessToken"]
+- !private ["SE", "append"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "refreshToken"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "requiredScopes"]
+- ["SQ", "InsufficientScope"]
+- ["SQ", "InvalidAccessToken"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "forEach"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "unlock"]
+- ["s5ErrorP", ""]
+- !private ["s5ErrorP", "getApiError"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "isApiFailed"]
+- ["s5ErrorP", "responseValidationFailed"]
+- !private ["14KakaoSDKCommon9ErrorInfoV", "requiredScopes"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "InsufficientScope"]
+- ["SH", "InvalidAccessToken"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "unlock"]
+- ["10Foundation14LocalizedErrorP", "responseValidationFailed"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- !private ["SM", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["So8NSCodingP", ""]
+- ["So6NSLockC", "init"]
+- !private ["So6NSLockC", "lock"]
+- !private ["So6NSLockC", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "lockBeforeDate"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "lockBeforeDate"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["12KakaoSDKAuth10OAuthTokenV", "refreshToken"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "removeAll"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- ["SY", "InsufficientScope"]
+- ["SY", "InvalidAccessToken"]
+- !private ["9Alamofire14RequestAdapterP", "AUTH"]
+- !private ["9Alamofire14RequestAdapterP", "AuthApi"]
+- !private ["9Alamofire14RequestAdapterP", "AuthController"]
+- ["9Alamofire14RequestAdapterP", "NSLock"]
+- !private ["9Alamofire14RequestAdapterP", "SdkError"]
+- !private ["9Alamofire14RequestAdapterP", "SdkLog"]
+- !private ["9Alamofire14RequestAdapterP", "String"]
+- ["9Alamofire14RequestAdapterP", ""]
+- ["9Alamofire14RequestAdapterP", "adapt"]
+- !private ["9Alamofire14RequestAdapterP", "errorLock"]
+- !private ["9Alamofire14RequestAdapterP", "getSdkError"]
+- !private ["9Alamofire14RequestAdapterP", "isRefreshing"]
+- !private ["9Alamofire14RequestAdapterP", "requestsToRetry"]
+- ["9Alamofire14RequestAdapterP", "retry"]
+- !private ["9Alamofire14RequestAdapterP", "shouldRefreshToken"]
+- !private ["9Alamofire18RequestInterceptorP", "AUTH"]
+- !private ["9Alamofire18RequestInterceptorP", "AuthApi"]
+- !private ["9Alamofire18RequestInterceptorP", "AuthController"]
+- ["9Alamofire18RequestInterceptorP", "NSLock"]
+- !private ["9Alamofire18RequestInterceptorP", "SdkError"]
+- !private ["9Alamofire18RequestInterceptorP", "SdkLog"]
+- !private ["9Alamofire18RequestInterceptorP", "String"]
+- ["9Alamofire18RequestInterceptorP", ""]
+- ["9Alamofire18RequestInterceptorP", "adapt"]
+- !private ["9Alamofire18RequestInterceptorP", "errorLock"]
+- !private ["9Alamofire18RequestInterceptorP", "getSdkError"]
+- !private ["9Alamofire18RequestInterceptorP", "isRefreshing"]
+- !private ["9Alamofire18RequestInterceptorP", "requestsToRetry"]
+- ["9Alamofire18RequestInterceptorP", "retry"]
+- !private ["9Alamofire18RequestInterceptorP", "shouldRefreshToken"]
+- !private ["9Alamofire14RequestRetrierP", "AUTH"]
+- !private ["9Alamofire14RequestRetrierP", "AuthApi"]
+- !private ["9Alamofire14RequestRetrierP", "AuthController"]
+- ["9Alamofire14RequestRetrierP", "NSLock"]
+- !private ["9Alamofire14RequestRetrierP", "SdkError"]
+- !private ["9Alamofire14RequestRetrierP", "SdkLog"]
+- !private ["9Alamofire14RequestRetrierP", "String"]
+- ["9Alamofire14RequestRetrierP", ""]
+- ["9Alamofire14RequestRetrierP", "adapt"]
+- !private ["9Alamofire14RequestRetrierP", "errorLock"]
+- !private ["9Alamofire14RequestRetrierP", "getSdkError"]
+- !private ["9Alamofire14RequestRetrierP", "isRefreshing"]
+- !private ["9Alamofire14RequestRetrierP", "requestsToRetry"]
+- ["9Alamofire14RequestRetrierP", "retry"]
+- !private ["9Alamofire14RequestRetrierP", "shouldRefreshToken"]
+- ["9Alamofire7AFErrorO31ResponseValidationFailureReasonO", "customValidationFailed"]
+- !private ["9Alamofire11RetryResultO", "doNotRetry"]
+- !private ["9Alamofire11RetryResultO", "doNotRetryWithError"]
+- !private ["9Alamofire11RetryResultO", "retry"]
+- !private ["14KakaoSDKCommon8SdkErrorO", "getApiError"]
+- !private ["14KakaoSDKCommon8SdkErrorO", "init"]
+- !private ["14KakaoSDKCommon8SdkErrorO", "isApiFailed"]
+- !private ["14KakaoSDKCommon6SdkLogC", "d"]
+- !private ["14KakaoSDKCommon6SdkLogC", "e"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["12KakaoSDKAuth14TokenManagableP", "getToken"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+depends-nominal:
+- "9Alamofire7AFErrorO"
+- !private "9Alamofire0A8ExtendedP"
+- "14KakaoSDKCommon16ApiFailureReasonO"
+- !private "Sa"
+- !private "12KakaoSDKAuth4AuthC"
+- !private "12KakaoSDKAuth7AuthApiC"
+- !private "12KakaoSDKAuth14AuthControllerC"
+- "12KakaoSDKAuth18AuthRequestRetrierC"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "14KakaoSDKCommon9ErrorInfoV"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So6NSLockC"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "12KakaoSDKAuth10OAuthTokenV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "9Alamofire14RequestAdapterP"
+- "9Alamofire18RequestInterceptorP"
+- "9Alamofire14RequestRetrierP"
+- "9Alamofire7AFErrorO31ResponseValidationFailureReasonO"
+- !private "9Alamofire11RetryResultO"
+- !private "14KakaoSDKCommon8SdkErrorO"
+- !private "14KakaoSDKCommon6SdkLogC"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "12KakaoSDKAuth14TokenManagableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Modules/KakaoSDKCommon.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/KakaoSDKAuth/KakaoSDKAuth-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/Target Support Files/KakaoSDKCommon/KakaoSDKCommon-umbrella.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/KakaoSDKAuth.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/KakaoSDKCommon.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Headers/KakaoSDKCommon-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKAuth.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/DerivedData/ClimbmateTest/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKCommon.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ce94f3d90c821588fdd2ddeaedd957c7"
