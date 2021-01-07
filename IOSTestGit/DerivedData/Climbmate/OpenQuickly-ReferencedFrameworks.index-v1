@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>CommonCrypto</string>
+	<string>KakaoSDKLink</string>
+	<string>SDWebImageSwiftUI</string>
+	<string>CoreLocation</string>
+	<string>SafariServices</string>
+	<string>ImageIO</string>
+	<string>SwiftyJSON</string>
+	<string>objc</string>
+	<string>PhotosUI</string>
+	<string>AuthenticationServices</string>
+	<string>CoreData</string>
+	<string>Accelerate</string>
+	<string>MobileCoreServices</string>
+	<string>sys</string>
+	<string>KakaoSDKAuth</string>
+	<string>CoreImage</string>
+	<string>CoreServices</string>
+	<string>KakaoSDKTemplate</string>
+	<string>KakaoSDKUser</string>
+	<string>SwiftUI</string>
+	<string>SDWebImage</string>
+	<string>KakaoSDKCommon</string>
+	<string>WebKit</string>
+	<string>MapKit</string>
+	<string>CoreVideo</string>
+	<string>Dispatch</string>
+	<string>WatchKit</string>
+	<string>Foundation</string>
+	<string>mach</string>
+	<string>QuartzCore</string>
+	<string>AppKit</string>
+	<string>Alamofire</string>
+	<string>Photos</string>
+	<string>Combine</string>
+	<string>SystemConfiguration</string>
+	<string>CoreGraphics</string>
+	<string>Introspect</string>
+	<string>UIKit</string>
+</array>
+</plist>

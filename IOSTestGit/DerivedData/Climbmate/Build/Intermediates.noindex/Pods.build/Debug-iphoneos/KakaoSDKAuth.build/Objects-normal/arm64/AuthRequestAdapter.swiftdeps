@@ -1,0 +1,173 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AuthRequestAdapter"
+provides-nominal:
+- "12KakaoSDKAuth18AuthRequestAdapterC"
+provides-member:
+- ["12KakaoSDKAuth18AuthRequestAdapterC", ""]
+provides-dynamic-lookup:
+- "adapt"
+- "kaHeader"
+depends-top-level:
+- !private "AUTH"
+- "AssignmentPrecedence"
+- "AuthRequestAdapter"
+- "Constants"
+- "Error"
+- "RequestInterceptor"
+- "Result"
+- "Session"
+- "String"
+- !private "StringLiteralType"
+- "URLRequest"
+- "Void"
+depends-member:
+- !private ["12KakaoSDKAuth4AuthC", "tokenManager"]
+- !private ["12KakaoSDKAuth18AuthRequestAdapterC", "AUTH"]
+- !private ["12KakaoSDKAuth18AuthRequestAdapterC", "Constants"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "Error"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "Result"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "Session"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "String"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "URLRequest"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "Void"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", ""]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "adapt"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "deinit"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "init"]
+- !private ["12KakaoSDKAuth18AuthRequestAdapterC", "kaHeader"]
+- ["12KakaoSDKAuth18AuthRequestAdapterC", "retry"]
+- !private ["Sl", "add"]
+- !private ["14KakaoSDKCommon9ConstantsC", "kaHeader"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s17CustomReflectableP", "headers"]
+- !private ["s17CustomReflectableP", "setValue"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "authorization"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["Se", "accessToken"]
+- !private ["SE", "accessToken"]
+- !private ["SQ", ""]
+- !private ["SQ", "authorization"]
+- !private ["SQ", "headers"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "success"]
+- !private ["s25ExpressibleByArrayLiteralP", "add"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "add"]
+- !private ["9Alamofire10HTTPHeaderV", "authorization"]
+- !private ["9Alamofire11HTTPHeadersV", "add"]
+- !private ["SH", ""]
+- !private ["SH", "authorization"]
+- !private ["SH", "headers"]
+- !private ["SH", "setValue"]
+- !private ["SH", "success"]
+- !private ["12KakaoSDKAuth10OAuthTokenV", "accessToken"]
+- !private ["10Foundation20ReferenceConvertibleP", "headers"]
+- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
+- !private ["9Alamofire14RequestAdapterP", "AUTH"]
+- !private ["9Alamofire14RequestAdapterP", "Constants"]
+- ["9Alamofire14RequestAdapterP", ""]
+- ["9Alamofire14RequestAdapterP", "adapt"]
+- !private ["9Alamofire14RequestAdapterP", "kaHeader"]
+- ["9Alamofire14RequestAdapterP", "retry"]
+- !private ["9Alamofire18RequestInterceptorP", "AUTH"]
+- !private ["9Alamofire18RequestInterceptorP", "Constants"]
+- ["9Alamofire18RequestInterceptorP", ""]
+- ["9Alamofire18RequestInterceptorP", "adapt"]
+- !private ["9Alamofire18RequestInterceptorP", "kaHeader"]
+- ["9Alamofire18RequestInterceptorP", "retry"]
+- !private ["9Alamofire14RequestRetrierP", "AUTH"]
+- !private ["9Alamofire14RequestRetrierP", "Constants"]
+- ["9Alamofire14RequestRetrierP", ""]
+- ["9Alamofire14RequestRetrierP", "adapt"]
+- !private ["9Alamofire14RequestRetrierP", "kaHeader"]
+- ["9Alamofire14RequestRetrierP", "retry"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "add"]
+- !private ["12KakaoSDKAuth14TokenManagableP", "getToken"]
+- !private ["10Foundation10URLRequestV", "headers"]
+- !private ["10Foundation10URLRequestV", "setValue"]
+- !private ["9Alamofire21URLRequestConvertibleP", "headers"]
+- !private ["9Alamofire21URLRequestConvertibleP", "setValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "headers"]
+- !private ["s21_ObjectiveCBridgeableP", "setValue"]
+depends-nominal:
+- !private "12KakaoSDKAuth4AuthC"
+- "12KakaoSDKAuth18AuthRequestAdapterC"
+- !private "Sl"
+- !private "14KakaoSDKCommon9ConstantsC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "9Alamofire10HTTPHeaderV"
+- !private "9Alamofire11HTTPHeadersV"
+- !private "SH"
+- !private "12KakaoSDKAuth10OAuthTokenV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "9Alamofire14RequestAdapterP"
+- "9Alamofire18RequestInterceptorP"
+- "9Alamofire14RequestRetrierP"
+- !private "s6ResultO"
+- !private "ST"
+- !private "12KakaoSDKAuth14TokenManagableP"
+- !private "10Foundation10URLRequestV"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Modules/KakaoSDKCommon.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/KakaoSDKAuth/KakaoSDKAuth-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/KakaoSDKCommon/KakaoSDKCommon-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKAuth/sources/KakaoSDKAuth/KakaoSDKAuth.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/KakaoSDKCommon.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Headers/KakaoSDKCommon-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKAuth.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKCommon.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5fee598281b45ed20830c0da4c5b2b20"

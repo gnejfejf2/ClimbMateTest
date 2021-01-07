@@ -1,0 +1,267 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "loginModel"
+provides-nominal:
+- "9Climbmate10loginModelV"
+provides-member:
+- ["9Climbmate10loginModelV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Codable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- "loginModel"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- ["Se", "encode"]
+- ["Se", "init"]
+- !private ["Se", "userEmail"]
+- !private ["Se", "userPassword"]
+- !private ["Se", "userPlatform"]
+- !private ["s7DecoderP", "container"]
+- ["SE", ""]
+- ["SE", "encode"]
+- ["SE", "init"]
+- !private ["SE", "userEmail"]
+- !private ["SE", "userPassword"]
+- !private ["SE", "userPlatform"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["9Climbmate10loginModelV", "CodingKeys"]
+- ["9Climbmate10loginModelV", "String"]
+- ["9Climbmate10loginModelV", ""]
+- ["9Climbmate10loginModelV", "encode"]
+- ["9Climbmate10loginModelV", "init"]
+- ["9Climbmate10loginModelV", "userEmail"]
+- ["9Climbmate10loginModelV", "userPassword"]
+- ["9Climbmate10loginModelV", "userPlatform"]
+depends-nominal:
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "9Climbmate10loginModelV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/PhotosUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/_MapKit_SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImageSwiftUI/SDWebImageSwiftUI.framework/Modules/SDWebImageSwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKAuth/KakaoSDKAuth.framework/Modules/KakaoSDKAuth.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Modules/KakaoSDKCommon.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKUser/KakaoSDKUser.framework/Modules/KakaoSDKUser.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Photos.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImageSwiftUI/SDWebImageSwiftUI.framework/Headers/SDWebImageSwiftUI.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImageSwiftUI/SDWebImageSwiftUI.framework/Headers/SDWebImageSwiftUI-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKAuth/KakaoSDKAuth.framework/Headers/KakaoSDKAuth-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Headers/KakaoSDKCommon-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKUser/KakaoSDKUser.framework/Headers/KakaoSDKUser-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKAuth/KakaoSDKAuth.framework/Headers/KakaoSDKAuth.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Headers/KakaoSDKCommon.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKUser/KakaoSDKUser.framework/Headers/KakaoSDKUser.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImageSwiftUI/SDWebImageSwiftUI.framework/Headers/SDWebImageSwiftUI-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKAuth/KakaoSDKAuth.framework/Headers/KakaoSDKAuth-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Headers/KakaoSDKCommon-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKUser/KakaoSDKUser.framework/Headers/KakaoSDKUser-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImageSwiftUI/SDWebImageSwiftUI.framework/Modules/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKAuth/KakaoSDKAuth.framework/Modules/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Modules/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKUser/KakaoSDKUser.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7f662d5652b065195ecb875498d5d4de"

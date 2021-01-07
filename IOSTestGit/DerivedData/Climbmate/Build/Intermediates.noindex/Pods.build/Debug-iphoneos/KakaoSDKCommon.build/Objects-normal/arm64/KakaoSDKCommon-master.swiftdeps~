@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "8ddc9adc20d45d7104542ca91bbd22ba"
+build_time: [1604417665, 268779000]
+inputs:
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/network/Api.swift": [1604379564, 752880758]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/network/ApiRequestAdapter.swift": [1604379564, 752500875]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/extension/Array+Utils.swift": [1604379564, 750780281]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/model/AuthErrorInfo.swift": [1604379564, 757527130]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/Constants.swift": [1604379564, 753552570]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/extension/Data+Utils.swift": [1604379564, 750448751]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/extension/DecodingContainer+AnyCollection.swift": [1604379564, 751518704]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/extension/Dictionary+Utils.swift": [1604379564, 751099916]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/extension/EncodingContainer+AnyCollection.swift": [1604379564, 749553936]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/model/ErrorInfo.swift": [1604379564, 758172041]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/KakaoSDKCommon.swift": [1604379564, 758714491]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/Properties.swift": [1604379564, 754290113]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/SdkCoder.swift": [1604379564, 755648950]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/SdkCrypto.swift": [1604379564, 753899736]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/SdkError.swift": [1604379564, 756152146]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/SdkLog.swift": [1604379564, 755183498]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/SdkUtils.swift": [1604379564, 754715798]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/extension/URL+Utils.swift": [1604379564, 750112714]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/common/Urls.swift": [1604379564, 756643844]

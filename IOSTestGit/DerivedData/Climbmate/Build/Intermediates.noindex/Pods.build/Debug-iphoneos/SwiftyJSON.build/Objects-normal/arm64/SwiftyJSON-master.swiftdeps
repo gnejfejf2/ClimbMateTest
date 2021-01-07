@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "cf81191b7fd4fc8deed080b27dd1a494"
+build_time: [1604417657, 481989000]
+inputs:
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1602070121, 305765605]

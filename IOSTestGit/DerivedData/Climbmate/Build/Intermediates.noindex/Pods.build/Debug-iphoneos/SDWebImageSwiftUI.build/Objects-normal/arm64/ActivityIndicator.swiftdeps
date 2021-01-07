@@ -1,0 +1,475 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ActivityIndicator"
+- "=="
+provides-nominal:
+- "17SDWebImageSwiftUI17ActivityIndicatorV"
+- "17SDWebImageSwiftUI17ActivityIndicatorV5StyleO"
+provides-member:
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", ""]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", ""]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Style"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "ActivityIndicator"
+- "AssignmentPrecedence"
+- "Binding"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PlatformViewRepresentable"
+- "Style"
+- "TernaryPrecedence"
+- "UIActivityIndicatorView"
+- "UIViewRepresentableContext"
+- !private "isAnimating"
+- !private "style"
+depends-member:
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "$isAnimating"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "ActivityIndicator"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Binding"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Body"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Bool"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Coordinator"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Default_Body"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Default_Coordinator"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "Style"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "UIActivityIndicatorView"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "UIViewRepresentableContext"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "UIViewType"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", ""]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_Default_Body"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_Default_Coordinator"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_identifiedViewTree"]
+- !private ["17SDWebImageSwiftUI17ActivityIndicatorV", "_isAnimating"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_makeView"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_makeViewList"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_overrideLayoutTraits"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_overrideSizeThatFits"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "_viewListCount"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "body"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "dismantleUIView"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "init"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "isAnimating"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "makeCoordinator"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "makeUIView"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "style"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV", "updateUIView"]
+- ["7SwiftUI10AnimatableP", ""]
+- ["SK", ""]
+- ["7SwiftUI7BindingV", "init"]
+- ["7SwiftUI7BindingV", "projectedValue"]
+- ["7SwiftUI7BindingV", "subscript"]
+- ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["So15CALayerDelegateP", "Style"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "hidesWhenStopped"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "startAnimating"]
+- !private ["So15CALayerDelegateP", "stopAnimating"]
+- !private ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "hidesWhenStopped"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "startAnimating"]
+- !private ["s7CVarArgP", "stopAnimating"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesWhenStopped"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimating"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "hidesWhenStopped"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "startAnimating"]
+- !private ["s23CustomStringConvertibleP", "stopAnimating"]
+- ["SQ", "=="]
+- !private ["SQ", "Style"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "hidesWhenStopped"]
+- !private ["SQ", "init"]
+- ["SQ", "large"]
+- ["SQ", "medium"]
+- !private ["SQ", "startAnimating"]
+- !private ["SQ", "stopAnimating"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", "=="]
+- !private ["SH", "Style"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "hidesWhenStopped"]
+- !private ["SH", "init"]
+- ["SH", "large"]
+- ["SH", "medium"]
+- !private ["SH", "startAnimating"]
+- !private ["SH", "stopAnimating"]
+- !private ["s6HasherV", "combine"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "Style"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "hidesWhenStopped"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "startAnimating"]
+- !private ["So8NSCodingP", "stopAnimating"]
+- !private ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "hidesWhenStopped"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "startAnimating"]
+- !private ["So8NSObjectC", "stopAnimating"]
+- !private ["So8NSObjectP", "Style"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "hidesWhenStopped"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "startAnimating"]
+- !private ["So8NSObjectP", "stopAnimating"]
+- !private ["SY", "large"]
+- !private ["SY", "medium"]
+- ["ST", ""]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", "=="]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", ""]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", "_rawHashValue"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", "hash"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", "hashValue"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", "large"]
+- !private ["So28UIActivityIndicatorViewStyleV", "large"]
+- ["17SDWebImageSwiftUI17ActivityIndicatorV5StyleO", "medium"]
+- !private ["So28UIActivityIndicatorViewStyleV", "medium"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "Style"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "hidesWhenStopped"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "stopAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "Style"]
+- !private ["So23UIActivityIndicatorViewC", "hidesWhenStopped"]
+- !private ["So23UIActivityIndicatorViewC", "init"]
+- !private ["So23UIActivityIndicatorViewC", "startAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "stopAnimating"]
+- !private ["So12UIAppearanceP", "Style"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "hidesWhenStopped"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "startAnimating"]
+- !private ["So12UIAppearanceP", "stopAnimating"]
+- !private ["So21UIAppearanceContainerP", "Style"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "hidesWhenStopped"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "startAnimating"]
+- !private ["So21UIAppearanceContainerP", "stopAnimating"]
+- !private ["So17UICoordinateSpaceP", "Style"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "hidesWhenStopped"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "startAnimating"]
+- !private ["So17UICoordinateSpaceP", "stopAnimating"]
+- !private ["So13UIDynamicItemP", "Style"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "hidesWhenStopped"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "startAnimating"]
+- !private ["So13UIDynamicItemP", "stopAnimating"]
+- !private ["So18UIFocusEnvironmentP", "Style"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "hidesWhenStopped"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "startAnimating"]
+- !private ["So18UIFocusEnvironmentP", "stopAnimating"]
+- !private ["So11UIFocusItemP", "Style"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "hidesWhenStopped"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "startAnimating"]
+- !private ["So11UIFocusItemP", "stopAnimating"]
+- !private ["So20UIFocusItemContainerP", "Style"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "hidesWhenStopped"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "startAnimating"]
+- !private ["So20UIFocusItemContainerP", "stopAnimating"]
+- !private ["So24UILargeContentViewerItemP", "Style"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "hidesWhenStopped"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "startAnimating"]
+- !private ["So24UILargeContentViewerItemP", "stopAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "Style"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "hidesWhenStopped"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "stopAnimating"]
+- !private ["So11UIResponderC", "Style"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "hidesWhenStopped"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "startAnimating"]
+- !private ["So11UIResponderC", "stopAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "Style"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "hidesWhenStopped"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "stopAnimating"]
+- !private ["So18UITraitEnvironmentP", "Style"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "hidesWhenStopped"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "startAnimating"]
+- !private ["So18UITraitEnvironmentP", "stopAnimating"]
+- !private ["So23UIUserActivityRestoringP", "Style"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "hidesWhenStopped"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "startAnimating"]
+- !private ["So23UIUserActivityRestoringP", "stopAnimating"]
+- !private ["So6UIViewC", "Style"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "hidesWhenStopped"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "startAnimating"]
+- !private ["So6UIViewC", "stopAnimating"]
+- ["7SwiftUI19UIViewRepresentableP", "Binding"]
+- ["7SwiftUI19UIViewRepresentableP", "Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Coordinator"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UIActivityIndicatorView"]
+- ["7SwiftUI19UIViewRepresentableP", "UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", ""]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "_identifiedViewTree"]
+- !private ["7SwiftUI19UIViewRepresentableP", "_isAnimating"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeView"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeViewList"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideLayoutTraits"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideSizeThatFits"]
+- ["7SwiftUI19UIViewRepresentableP", "_viewListCount"]
+- ["7SwiftUI19UIViewRepresentableP", "body"]
+- ["7SwiftUI19UIViewRepresentableP", "dismantleUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "isAnimating"]
+- ["7SwiftUI19UIViewRepresentableP", "makeCoordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "makeUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "style"]
+- ["7SwiftUI19UIViewRepresentableP", "updateUIView"]
+- ["7SwiftUI4ViewP", "Binding"]
+- ["7SwiftUI4ViewP", "Body"]
+- ["7SwiftUI4ViewP", "Coordinator"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "Default_Coordinator"]
+- !private ["7SwiftUI4ViewP", "UIActivityIndicatorView"]
+- ["7SwiftUI4ViewP", "UIViewType"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_Default_Coordinator"]
+- ["7SwiftUI4ViewP", "_identifiedViewTree"]
+- !private ["7SwiftUI4ViewP", "_isAnimating"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_overrideLayoutTraits"]
+- ["7SwiftUI4ViewP", "_overrideSizeThatFits"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- ["7SwiftUI4ViewP", "body"]
+- ["7SwiftUI4ViewP", "dismantleUIView"]
+- !private ["7SwiftUI4ViewP", "isAnimating"]
+- ["7SwiftUI4ViewP", "makeCoordinator"]
+- ["7SwiftUI4ViewP", "makeUIView"]
+- !private ["7SwiftUI4ViewP", "style"]
+- ["7SwiftUI4ViewP", "updateUIView"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesWhenStopped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Style"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hidesWhenStopped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Style"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "hidesWhenStopped"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "startAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "stopAnimating"]
+depends-nominal:
+- "17SDWebImageSwiftUI17ActivityIndicatorV"
+- "7SwiftUI10AnimatableP"
+- "SK"
+- "7SwiftUI7BindingV"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- "ST"
+- "17SDWebImageSwiftUI17ActivityIndicatorV5StyleO"
+- !private "So28UIActivityIndicatorViewStyleV"
+- "17SDWebImageSwiftUI17ActivityIndicatorV5StyleO"
+- !private "So28UIActivityIndicatorViewStyleV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So23UIActivityIndicatorViewC"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "7SwiftUI19UIViewRepresentableP"
+- "7SwiftUI4ViewP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImage+GIF.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Module/SDWebImageSwiftUI.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/SDWebImageSwiftUI/SDWebImageSwiftUI-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImage+ForceDecode.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/WebImage/SDWebImage.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImage.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIButton+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/NSButton+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImageView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView+WebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImageView+HighlightedWebCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIView+WebCacheOperation.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderOperation.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageTransition.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageRep.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloader.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageHEICCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageGIFCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageAPNGCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageIOCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageAWebPCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageCachesManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageLoadersManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageCodersManager.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImagePrefetcher.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageCoderHelper.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImagePlayer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageError.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageIndicator.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDImageGraphics.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImage+MultiFormat.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageView.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "51f0f5b000de3b86dc462b1e0369b445"

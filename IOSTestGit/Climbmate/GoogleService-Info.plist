@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>654064778700-bnvteq2rdfh3lm167i7hrkej18o38drq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.654064778700-bnvteq2rdfh3lm167i7hrkej18o38drq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAN3A1YfIkCQXOTQpn6z_Tcx8N89-FamZQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>654064778700</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.JYK.Climb.mate</string>
+	<key>PROJECT_ID</key>
+	<string>climb-mate-58cc9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>climb-mate-58cc9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:654064778700:ios:80247986340c22d714b169</string>
+	<key>DATABASE_URL</key>
+	<string>https://climb-mate-58cc9.firebaseio.com</string>
+</dict>
+</plist>

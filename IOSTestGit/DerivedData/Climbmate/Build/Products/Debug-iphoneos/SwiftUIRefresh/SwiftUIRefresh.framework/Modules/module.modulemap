@@ -1,0 +1,11 @@
+framework module SwiftUIRefresh {
+  umbrella header "SwiftUIRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftUIRefresh.Swift {
+    header "SwiftUIRefresh-Swift.h"
+    requires objc
+}

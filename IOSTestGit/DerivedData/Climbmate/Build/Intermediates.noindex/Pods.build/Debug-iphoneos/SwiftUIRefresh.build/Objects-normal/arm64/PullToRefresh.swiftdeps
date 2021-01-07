@@ -1,0 +1,579 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "pullToRefresh"]
+provides-dynamic-lookup:
+- "isShowing"
+- "onRefresh"
+- "onValueChanged"
+depends-top-level:
+- !private "$isShowing"
+- "AssignmentPrecedence"
+- "Binding"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Coordinator"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "Introspect"
+- "PullToRefresh"
+- "UIRefreshControl"
+- "UITableView"
+- "UIView"
+- "UIViewRepresentable"
+- "UIViewRepresentableContext"
+- "View"
+- "Void"
+- !private "_isShowing"
+- !private "isShowing"
+- !private "onRefresh"
+- !private "overlay"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["7SwiftUI10AnimatableP", ""]
+- !private ["7SwiftUI10AnimatableP", "zero"]
+- ["SK", ""]
+- ["7SwiftUI7BindingV", "init"]
+- ["7SwiftUI7BindingV", "projectedValue"]
+- ["7SwiftUI7BindingV", "subscript"]
+- ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "beginRefreshing"]
+- !private ["So15CALayerDelegateP", "endRefreshing"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- !private ["So15CALayerDelegateP", "refreshControl"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "beginRefreshing"]
+- !private ["s7CVarArgP", "endRefreshing"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "refreshControl"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["SL", "now"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "Binding"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "Bool"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "Void"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "deinit"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "init"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "isShowing"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "onRefresh"]
+- ["14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC", "onValueChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "beginRefreshing"]
+- !private ["s28CustomDebugStringConvertibleP", "endRefreshing"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "refreshControl"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "beginRefreshing"]
+- !private ["s23CustomStringConvertibleP", "endRefreshing"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "refreshControl"]
+- !private ["Se", "zero"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["SE", "zero"]
+- ["SQ", ""]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "beginRefreshing"]
+- !private ["SQ", "endRefreshing"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "isUserInteractionEnabled"]
+- !private ["SQ", "main"]
+- !private ["SQ", "now"]
+- !private ["SQ", "refreshControl"]
+- !private ["SQ", "valueChanged"]
+- !private ["SQ", "zero"]
+- !private ["So15UIControlEventsV", "valueChanged"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "valueChanged"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
+- ["SH", ""]
+- !private ["SH", "addTarget"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "beginRefreshing"]
+- !private ["SH", "endRefreshing"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "isUserInteractionEnabled"]
+- !private ["SH", "main"]
+- !private ["SH", "refreshControl"]
+- !private ["10IntrospectAAO", "findAncestor"]
+- !private ["10IntrospectAAO", "findViewHost"]
+- !private ["10IntrospectAAO", "previousSibling"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "beginRefreshing"]
+- !private ["So8NSCodingP", "endRefreshing"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "refreshControl"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "beginRefreshing"]
+- !private ["So8NSObjectC", "endRefreshing"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "refreshControl"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "beginRefreshing"]
+- !private ["So8NSObjectP", "endRefreshing"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "isUserInteractionEnabled"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "refreshControl"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["Sj", ""]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["s9OptionSetP", "valueChanged"]
+- !private ["SY", ""]
+- !private ["SY", "valueChanged"]
+- !private ["7Combine9SchedulerP", "asyncAfter"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["ST", ""]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "valueChanged"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "beginRefreshing"]
+- !private ["So29UIAccessibilityIdentificationP", "endRefreshing"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "refreshControl"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "beginRefreshing"]
+- !private ["So12UIAppearanceP", "endRefreshing"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "refreshControl"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "beginRefreshing"]
+- !private ["So21UIAppearanceContainerP", "endRefreshing"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "refreshControl"]
+- !private ["So32UIContextMenuInteractionDelegateP", "addTarget"]
+- !private ["So32UIContextMenuInteractionDelegateP", "beginRefreshing"]
+- !private ["So32UIContextMenuInteractionDelegateP", "endRefreshing"]
+- !private ["So32UIContextMenuInteractionDelegateP", "init"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "beginRefreshing"]
+- !private ["So9UIControlC", "endRefreshing"]
+- !private ["So9UIControlC", "init"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "beginRefreshing"]
+- !private ["So17UICoordinateSpaceP", "endRefreshing"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "refreshControl"]
+- !private ["So23UIDataSourceTranslatingP", "refreshControl"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "beginRefreshing"]
+- !private ["So13UIDynamicItemP", "endRefreshing"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "refreshControl"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "beginRefreshing"]
+- !private ["So18UIFocusEnvironmentP", "endRefreshing"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "refreshControl"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "beginRefreshing"]
+- !private ["So11UIFocusItemP", "endRefreshing"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So11UIFocusItemP", "refreshControl"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "beginRefreshing"]
+- !private ["So20UIFocusItemContainerP", "endRefreshing"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "isUserInteractionEnabled"]
+- !private ["So20UIFocusItemContainerP", "refreshControl"]
+- !private ["So30UIFocusItemScrollableContainerP", "refreshControl"]
+- ["So10UIKeyInputP", ""]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addTarget"]
+- !private ["So24UILargeContentViewerItemP", "beginRefreshing"]
+- !private ["So24UILargeContentViewerItemP", "endRefreshing"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "isUserInteractionEnabled"]
+- !private ["So24UILargeContentViewerItemP", "refreshControl"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "beginRefreshing"]
+- !private ["So30UIPasteConfigurationSupportingP", "endRefreshing"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "refreshControl"]
+- !private ["So16UIRefreshControlC", "addTarget"]
+- !private ["So16UIRefreshControlC", "beginRefreshing"]
+- !private ["So16UIRefreshControlC", "endRefreshing"]
+- !private ["So16UIRefreshControlC", "init"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "beginRefreshing"]
+- !private ["So11UIResponderC", "endRefreshing"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- !private ["So11UIResponderC", "refreshControl"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "beginRefreshing"]
+- !private ["So30UIResponderStandardEditActionsP", "endRefreshing"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "refreshControl"]
+- ["So12UIScrollViewC", ""]
+- !private ["So12UIScrollViewC", "refreshControl"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "refreshControl"]
+- !private ["So11UITableViewC", "refreshControl"]
+- ["So17UITextInputTraitsP", ""]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "beginRefreshing"]
+- !private ["So18UITraitEnvironmentP", "endRefreshing"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "refreshControl"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- !private ["So23UIUserActivityRestoringP", "beginRefreshing"]
+- !private ["So23UIUserActivityRestoringP", "endRefreshing"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "isUserInteractionEnabled"]
+- !private ["So23UIUserActivityRestoringP", "refreshControl"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "beginRefreshing"]
+- !private ["So6UIViewC", "endRefreshing"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- !private ["So6UIViewC", "refreshControl"]
+- !private ["7SwiftUI19UIViewRepresentableP", "$isShowing"]
+- ["7SwiftUI19UIViewRepresentableP", "Binding"]
+- ["7SwiftUI19UIViewRepresentableP", "Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_UIViewType"]
+- !private ["7SwiftUI19UIViewRepresentableP", "DispatchQueue"]
+- !private ["7SwiftUI19UIViewRepresentableP", "Introspect"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UIRefreshControl"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UITableView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UIView"]
+- ["7SwiftUI19UIViewRepresentableP", "UIViewType"]
+- !private ["7SwiftUI19UIViewRepresentableP", ""]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", "_identifiedViewTree"]
+- !private ["7SwiftUI19UIViewRepresentableP", "_isShowing"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeView"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeViewList"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideLayoutTraits"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideSizeThatFits"]
+- ["7SwiftUI19UIViewRepresentableP", "_viewListCount"]
+- ["7SwiftUI19UIViewRepresentableP", "body"]
+- ["7SwiftUI19UIViewRepresentableP", "dismantleUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "frame"]
+- !private ["7SwiftUI19UIViewRepresentableP", "init"]
+- !private ["7SwiftUI19UIViewRepresentableP", "isShowing"]
+- ["7SwiftUI19UIViewRepresentableP", "makeCoordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "makeUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "onRefresh"]
+- !private ["7SwiftUI19UIViewRepresentableP", "tableView"]
+- ["7SwiftUI19UIViewRepresentableP", "updateUIView"]
+- !private ["7SwiftUI26UIViewRepresentableContextV", "coordinator"]
+- !private ["7SwiftUI4ViewP", "$isShowing"]
+- ["7SwiftUI4ViewP", "Binding"]
+- ["7SwiftUI4ViewP", "Body"]
+- ["7SwiftUI4ViewP", "Bool"]
+- ["7SwiftUI4ViewP", "Coordinator"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "Default_UIViewType"]
+- !private ["7SwiftUI4ViewP", "DispatchQueue"]
+- !private ["7SwiftUI4ViewP", "Introspect"]
+- !private ["7SwiftUI4ViewP", "PullToRefresh"]
+- !private ["7SwiftUI4ViewP", "UIRefreshControl"]
+- !private ["7SwiftUI4ViewP", "UITableView"]
+- !private ["7SwiftUI4ViewP", "UIView"]
+- ["7SwiftUI4ViewP", "UIViewType"]
+- ["7SwiftUI4ViewP", "View"]
+- ["7SwiftUI4ViewP", "Void"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_Default_UIViewType"]
+- ["7SwiftUI4ViewP", "_identifiedViewTree"]
+- !private ["7SwiftUI4ViewP", "_isShowing"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_overrideLayoutTraits"]
+- ["7SwiftUI4ViewP", "_overrideSizeThatFits"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- ["7SwiftUI4ViewP", "body"]
+- ["7SwiftUI4ViewP", "dismantleUIView"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "isShowing"]
+- ["7SwiftUI4ViewP", "makeCoordinator"]
+- ["7SwiftUI4ViewP", "makeUIView"]
+- !private ["7SwiftUI4ViewP", "onRefresh"]
+- !private ["7SwiftUI4ViewP", "overlay"]
+- ["7SwiftUI4ViewP", "pullToRefresh"]
+- !private ["7SwiftUI4ViewP", "tableView"]
+- ["7SwiftUI4ViewP", "updateUIView"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginRefreshing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endRefreshing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "refreshControl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addTarget"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "asyncAfter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "beginRefreshing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endRefreshing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isUserInteractionEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "refreshControl"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "beginRefreshing"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "endRefreshing"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "refreshControl"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "7SwiftUI10AnimatableP"
+- "SK"
+- "7SwiftUI7BindingV"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- "14SwiftUIRefresh13PullToRefresh33_16BF17DBA6E4A62A708DE50E3A5DDE9ELLV11CoordinatorC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "7SwiftUI15DynamicPropertyP"
+- !private "SE"
+- "SQ"
+- !private "So15UIControlEventsV"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- !private "10IntrospectAAO"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- "So10UIKeyInputP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So16UIRefreshControlC"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UITableViewC"
+- "So17UITextInputTraitsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "7SwiftUI19UIViewRepresentableP"
+- !private "7SwiftUI26UIViewRepresentableContextV"
+- "7SwiftUI4ViewP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Introspect/Introspect.framework/Modules/Introspect.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/SwiftUIRefresh/SwiftUIRefresh-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/Introspect/Introspect-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Introspect/Introspect.framework/Headers/Introspect-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftUIRefresh.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Introspect.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "78a7c2bfc1de46e8b55ad86c0cdfc5e9"

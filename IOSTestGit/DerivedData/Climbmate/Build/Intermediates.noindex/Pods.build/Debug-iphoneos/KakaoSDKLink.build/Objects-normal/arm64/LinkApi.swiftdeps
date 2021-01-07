@@ -1,0 +1,676 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LinkApi"
+provides-nominal:
+- "12KakaoSDKLink7LinkApiC"
+provides-member:
+- ["12KakaoSDKLink7LinkApiC", ""]
+- ["12KakaoSDKLink7LinkApiC", "isExceededLimit"]
+- ["12KakaoSDKLink7LinkApiC", "makeSharerUrlforDefaultLink"]
+- ["12KakaoSDKLink7LinkApiC", "makeSharerUrlforDefaultLink"]
+- ["12KakaoSDKLink7LinkApiC", "makeSharerUrlforScrapLink"]
+- ["12KakaoSDKLink7LinkApiC", "makeSharerUrlforCustomLink"]
+- ["12KakaoSDKLink7LinkApiC", "transformResponseToLinkResult"]
+- ["12KakaoSDKLink7LinkApiC", "defaultLink"]
+- ["12KakaoSDKLink7LinkApiC", "defaultLink"]
+- ["12KakaoSDKLink7LinkApiC", "defaultLink"]
+- ["12KakaoSDKLink7LinkApiC", "scrapLink"]
+- ["12KakaoSDKLink7LinkApiC", "customLink"]
+- ["12KakaoSDKLink7LinkApiC", "imageUpload"]
+- ["12KakaoSDKLink7LinkApiC", "imageScrap"]
+provides-dynamic-lookup:
+- "customLink"
+- "defaultLink"
+- "imageScrap"
+- "imageUpload"
+- "isExceededLimit"
+- "isKakaoLinkAvailable"
+- "isKakaoLinkUrl"
+- "makeSharerUrl"
+- "makeSharerUrlforCustomLink"
+- "makeSharerUrlforDefaultLink"
+- "makeSharerUrlforScrapLink"
+- "scrapLink"
+- "shared"
+- "transformResponseToLinkResult"
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private ">"
+- !private ">="
+- !private "API"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "Constants"
+- "Data"
+- !private "Dictionary"
+- "Error"
+- !private "FloatLiteralType"
+- "HTTPURLResponse"
+- "ImageUploadResult"
+- "Int64"
+- !private "IntegerLiteralType"
+- !private "KakaoSDKCommon"
+- "LinkApi"
+- "LinkResult"
+- !private "Paths"
+- "SdkError"
+- "SdkJSONDecoder"
+- !private "SdkLog"
+- !private "SdkUtils"
+- "String"
+- !private "StringLiteralType"
+- "Templatable"
+- !private "UIApplication"
+- "UIImage"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "Urls"
+- "ValidationResult"
+- "Void"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["9Alamofire0A8ExtendedP", "bundleIdentifier"]
+- !private ["9Alamofire0A8ExtendedP", "main"]
+- !private ["14KakaoSDKCommon3ApiC", "responseData"]
+- !private ["14KakaoSDKCommon3ApiC", "upload"]
+- !private ["14KakaoSDKCommon7ApiTypeO", "KApi"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "data"]
+- !private ["SK", "hasPrefix"]
+- !private ["Sz", ""]
+- !private ["Sz", "description"]
+- !private ["So8NSBundleC", "bundleIdentifier"]
+- !private ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "bundleIdentifier"]
+- !private ["s7CVarArgP", "canOpenURL"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "filterNil"]
+- !private ["s7CVarArgP", "hasPrefix"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toJsonString"]
+- !private ["14KakaoSDKCommon19ClientFailureReasonO", "BadParameter"]
+- !private ["14KakaoSDKCommon19ClientFailureReasonO", "ExceedKakaoLinkSizeLimit"]
+- !private ["14KakaoSDKCommon19ClientFailureReasonO", "Unknown"]
+- !private ["Sl", ""]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "count"]
+- !private ["Sl", "data"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "filterNil"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "hasPrefix"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "toJsonString"]
+- !private ["SL", ""]
+- !private ["SL", "data"]
+- !private ["SL", "description"]
+- !private ["SL", "hasPrefix"]
+- !private ["14KakaoSDKCommon9ConstantsC", "appVersion"]
+- !private ["14KakaoSDKCommon9ConstantsC", "kaHeader"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "bundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "canOpenURL"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "filterNil"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toJsonString"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "filterNil"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toJsonString"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "bundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "canOpenURL"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "filterNil"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toJsonString"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["9Alamofire11DataDecoderP", "custom"]
+- !private ["9Alamofire11DataDecoderP", "decode"]
+- !private ["9Alamofire11DataDecoderP", "default"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "argumentMsg"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- !private ["Se", "description"]
+- !private ["Se", "filterNil"]
+- !private ["Se", "hasPrefix"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "templateArgs"]
+- !private ["Se", "templateId"]
+- !private ["Se", "templateMsg"]
+- !private ["Se", "toJsonString"]
+- !private ["Se", "warningMsg"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "count"]
+- !private ["SD", "filterNil"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SD", "toJsonString"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "argumentMsg"]
+- !private ["SE", "count"]
+- !private ["SE", "data"]
+- !private ["SE", "description"]
+- !private ["SE", "filterNil"]
+- !private ["SE", "hasPrefix"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "templateArgs"]
+- !private ["SE", "templateId"]
+- !private ["SE", "templateMsg"]
+- !private ["SE", "toJsonString"]
+- !private ["SE", "warningMsg"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "Api"]
+- !private ["SQ", "BadParameter"]
+- !private ["SQ", "ExceedKakaoLinkSizeLimit"]
+- !private ["SQ", "KApi"]
+- !private ["SQ", "SharerLink"]
+- !private ["SQ", "TalkLink"]
+- !private ["SQ", "Unknown"]
+- !private ["SQ", ""]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "bundleIdentifier"]
+- !private ["SQ", "canOpenURL"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "description"]
+- !private ["SQ", "filterNil"]
+- !private ["SQ", "hasPrefix"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "post"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toJsonString"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "filterNil"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "toJsonString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasPrefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["9Alamofire10HTTPMethodV", "post"]
+- !private ["SH", "Api"]
+- !private ["SH", "BadParameter"]
+- !private ["SH", "ExceedKakaoLinkSizeLimit"]
+- !private ["SH", "KApi"]
+- !private ["SH", "SharerLink"]
+- !private ["SH", "TalkLink"]
+- !private ["SH", "Unknown"]
+- !private ["SH", ""]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "bundleIdentifier"]
+- !private ["SH", "canOpenURL"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "description"]
+- !private ["SH", "filterNil"]
+- !private ["SH", "hasPrefix"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "post"]
+- !private ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toJsonString"]
+- !private ["SH", "utf8"]
+- !private ["14KakaoSDKCommon8HostTypeO", "SharerLink"]
+- !private ["14KakaoSDKCommon8HostTypeO", "TalkLink"]
+- !private ["12KakaoSDKLink17ImageUploadResultV", ""]
+- !private ["s5Int64V", "description"]
+- ["10Foundation11JSONDecoderC", ""]
+- !private ["10Foundation11JSONDecoderC", "custom"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "default"]
+- !private ["14KakaoSDKCommonAAC", "appKey"]
+- !private ["14KakaoSDKCommonAAC", "shared"]
+- !private ["12KakaoSDKLink7LinkApiC", "API"]
+- ["12KakaoSDKLink7LinkApiC", "Bool"]
+- !private ["12KakaoSDKLink7LinkApiC", "Bundle"]
+- !private ["12KakaoSDKLink7LinkApiC", "Constants"]
+- ["12KakaoSDKLink7LinkApiC", "Data"]
+- ["12KakaoSDKLink7LinkApiC", "Error"]
+- ["12KakaoSDKLink7LinkApiC", "HTTPURLResponse"]
+- ["12KakaoSDKLink7LinkApiC", "ImageUploadResult"]
+- ["12KakaoSDKLink7LinkApiC", "Int64"]
+- !private ["12KakaoSDKLink7LinkApiC", "KakaoSDKCommon"]
+- ["12KakaoSDKLink7LinkApiC", "LinkApi"]
+- ["12KakaoSDKLink7LinkApiC", "LinkResult"]
+- !private ["12KakaoSDKLink7LinkApiC", "Paths"]
+- !private ["12KakaoSDKLink7LinkApiC", "SdkError"]
+- !private ["12KakaoSDKLink7LinkApiC", "SdkJSONDecoder"]
+- !private ["12KakaoSDKLink7LinkApiC", "SdkLog"]
+- !private ["12KakaoSDKLink7LinkApiC", "SdkUtils"]
+- ["12KakaoSDKLink7LinkApiC", "String"]
+- ["12KakaoSDKLink7LinkApiC", "Templatable"]
+- !private ["12KakaoSDKLink7LinkApiC", "UIApplication"]
+- ["12KakaoSDKLink7LinkApiC", "UIImage"]
+- ["12KakaoSDKLink7LinkApiC", "URL"]
+- !private ["12KakaoSDKLink7LinkApiC", "Urls"]
+- ["12KakaoSDKLink7LinkApiC", "ValidationResult"]
+- ["12KakaoSDKLink7LinkApiC", "Void"]
+- ["12KakaoSDKLink7LinkApiC", ""]
+- ["12KakaoSDKLink7LinkApiC", "customLink"]
+- ["12KakaoSDKLink7LinkApiC", "defaultLink"]
+- ["12KakaoSDKLink7LinkApiC", "deinit"]
+- ["12KakaoSDKLink7LinkApiC", "imageScrap"]
+- ["12KakaoSDKLink7LinkApiC", "imageUpload"]
+- ["12KakaoSDKLink7LinkApiC", "init"]
+- ["12KakaoSDKLink7LinkApiC", "isExceededLimit"]
+- ["12KakaoSDKLink7LinkApiC", "isKakaoLinkAvailable"]
+- ["12KakaoSDKLink7LinkApiC", "isKakaoLinkUrl"]
+- !private ["12KakaoSDKLink7LinkApiC", "makeSharerUrl"]
+- ["12KakaoSDKLink7LinkApiC", "makeSharerUrlforCustomLink"]
+- ["12KakaoSDKLink7LinkApiC", "makeSharerUrlforDefaultLink"]
+- ["12KakaoSDKLink7LinkApiC", "makeSharerUrlforScrapLink"]
+- ["12KakaoSDKLink7LinkApiC", "scrapLink"]
+- ["12KakaoSDKLink7LinkApiC", "shared"]
+- ["12KakaoSDKLink7LinkApiC", "transformResponseToLinkResult"]
+- !private ["12KakaoSDKLink10LinkResultV", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "hasPrefix"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "hasPrefix"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "hasPrefix"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "hasPrefix"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "hasPrefix"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "hasPrefix"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bundleIdentifier"]
+- !private ["So8NSObjectC", "canOpenURL"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataUsingEncoding"]
+- !private ["So8NSObjectC", "hasPrefix"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bundleIdentifier"]
+- !private ["So8NSObjectP", "canOpenURL"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataUsingEncoding"]
+- !private ["So8NSObjectP", "hasPrefix"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "hasPrefix"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "hasPrefix"]
+- !private ["Sj", ""]
+- !private ["Sj", "description"]
+- !private ["14KakaoSDKCommon5PathsC", "defalutLink"]
+- !private ["14KakaoSDKCommon5PathsC", "imageScrapLink"]
+- !private ["14KakaoSDKCommon5PathsC", "imageUploadLink"]
+- !private ["14KakaoSDKCommon5PathsC", "scrapLink"]
+- !private ["14KakaoSDKCommon5PathsC", "sharerLink"]
+- !private ["14KakaoSDKCommon5PathsC", "talkLink"]
+- !private ["14KakaoSDKCommon5PathsC", "validateLink"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "distance"]
+- !private ["Sk", "index"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "data"]
+- !private ["Sm", "hasPrefix"]
+- !private ["SY", "post"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["14KakaoSDKCommon8SdkErrorO", "init"]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", "custom"]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", "decode"]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", "default"]
+- !private ["14KakaoSDKCommon6SdkLogC", "d"]
+- !private ["14KakaoSDKCommon8SdkUtilsC", "makeUrlWithParameters"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "data"]
+- !private ["ST", "filterNil"]
+- !private ["ST", "hasPrefix"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "toJsonString"]
+- !private ["14KakaoSDKCommon11SessionTypeO", "Api"]
+- !private ["SZ", "description"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "description"]
+- !private ["Sx", ""]
+- !private ["Sx", "description"]
+- !private ["SS", "data"]
+- !private ["SS", "hasPrefix"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "data"]
+- !private ["Sy", "hasPrefix"]
+- !private ["16KakaoSDKTemplate11TemplatableP", "toJsonObject"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["7Combine15TopLevelDecoderP", "custom"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "default"]
+- !private ["So13UIApplicationC", "canOpenURL"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "canOpenURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "canOpenURL"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "canOpenURL"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "canOpenURL"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "absoluteString"]
+- !private ["9Alamofire14URLConvertibleP", "data"]
+- !private ["9Alamofire14URLConvertibleP", "hasPrefix"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["14KakaoSDKCommon4UrlsC", "compose"]
+- !private ["12KakaoSDKLink16ValidationResultV", ""]
+- !private ["12KakaoSDKLink16ValidationResultV", "argumentMsg"]
+- !private ["12KakaoSDKLink16ValidationResultV", "templateArgs"]
+- !private ["12KakaoSDKLink16ValidationResultV", "templateId"]
+- !private ["12KakaoSDKLink16ValidationResultV", "templateMsg"]
+- !private ["12KakaoSDKLink16ValidationResultV", "warningMsg"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasPrefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filterNil"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "toJsonString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canOpenURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bundleIdentifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "canOpenURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasPrefix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "filterNil"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "toJsonString"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "9Alamofire0A8ExtendedP"
+- !private "14KakaoSDKCommon3ApiC"
+- !private "14KakaoSDKCommon7ApiTypeO"
+- !private "SK"
+- !private "Sz"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "14KakaoSDKCommon19ClientFailureReasonO"
+- !private "Sl"
+- !private "SL"
+- !private "14KakaoSDKCommon9ConstantsC"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "9Alamofire11DataDecoderP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "9Alamofire10HTTPMethodV"
+- !private "SH"
+- !private "14KakaoSDKCommon8HostTypeO"
+- !private "12KakaoSDKLink17ImageUploadResultV"
+- !private "s5Int64V"
+- "10Foundation11JSONDecoderC"
+- !private "14KakaoSDKCommonAAC"
+- "12KakaoSDKLink7LinkApiC"
+- !private "12KakaoSDKLink10LinkResultV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "14KakaoSDKCommon5PathsC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "14KakaoSDKCommon8SdkErrorO"
+- !private "14KakaoSDKCommon14SdkJSONDecoderC"
+- !private "14KakaoSDKCommon6SdkLogC"
+- !private "14KakaoSDKCommon8SdkUtilsC"
+- !private "ST"
+- !private "14KakaoSDKCommon11SessionTypeO"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "16KakaoSDKTemplate11TemplatableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "So13UIApplicationC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "14KakaoSDKCommon4UrlsC"
+- !private "12KakaoSDKLink16ValidationResultV"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKTemplate/KakaoSDKTemplate.framework/Modules/KakaoSDKTemplate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Modules/KakaoSDKCommon.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/KakaoSDKTemplate/KakaoSDKTemplate-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/KakaoSDKLink/KakaoSDKLink-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/KakaoSDKCommon/KakaoSDKCommon-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKTemplate/sources/KakaoSDKTemplate/KakaoSDKTemplate.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKLink/sources/KakaoSDKLink/KakaoSDKLink.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/KakaoSDKCommon.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKTemplate/KakaoSDKTemplate.framework/Headers/KakaoSDKTemplate-Swift.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/KakaoSDKCommon/KakaoSDKCommon.framework/Headers/KakaoSDKCommon-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKLink.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKTemplate.build/module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKCommon.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8b33952a8de55ed892257d4d6dde9d0b"

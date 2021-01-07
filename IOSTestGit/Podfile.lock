@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (5.3.0)
+  - Introspect (0.1.0)
+  - KakaoSDKAuth (2.0.4):
+    - KakaoSDKCommon (= 2.0.4)
+  - KakaoSDKCommon (2.0.4):
+    - Alamofire (~> 5.1)
+  - KakaoSDKLink (2.0.4):
+    - KakaoSDKCommon (= 2.0.4)
+    - KakaoSDKTemplate (= 2.0.4)
+  - KakaoSDKTemplate (2.0.4):
+    - KakaoSDKCommon (= 2.0.4)
+  - KakaoSDKUser (2.0.4):
+    - KakaoSDKAuth (= 2.0.4)
+    - KakaoSDKCommon (= 2.0.4)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - SDWebImageSwiftUI (1.5.0):
+    - SDWebImage (~> 5.7)
+  - SwiftUIRefresh (0.0.3):
+    - Introspect (~> 0.1.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - KakaoSDKAuth
+  - KakaoSDKCommon
+  - KakaoSDKLink
+  - KakaoSDKUser
+  - SDWebImageSwiftUI
+  - SwiftUIRefresh
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Introspect
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKLink
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SwiftUIRefresh
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  Introspect: ad32f2b7b9e7ac2c008b9dfec3d5325fbd3660fa
+  KakaoSDKAuth: 3a88e4a110243f8c6b9948c5ec85670c7acaebf6
+  KakaoSDKCommon: 070472d0638ea6b28684a23c195e47015349e51b
+  KakaoSDKLink: a90a919c4b00dc85bbf21d91842961c105317317
+  KakaoSDKTemplate: 330007aea0b46de1ed93e4cbddc7b4c3b59bdc25
+  KakaoSDKUser: 7951e09f9e6de3908ae2d7f8486290c8607c217a
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SDWebImageSwiftUI: 43687ffe232ddd33fe0659498b7ca9884fdd6b35
+  SwiftUIRefresh: ca6ae2718d25aad5dd68bbf5d2ae36ef6ade98bf
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 851641515965b920a770c4b52aea758301abf436
+
+COCOAPODS: 1.10.0

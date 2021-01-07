@@ -1,0 +1,475 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SdkError"
+- "ClientFailureReason"
+- "ApiFailureReason"
+- "AuthFailureReason"
+provides-nominal:
+- "14KakaoSDKCommon8SdkErrorO"
+- "14KakaoSDKCommon19ClientFailureReasonO"
+- "14KakaoSDKCommon16ApiFailureReasonO"
+- "14KakaoSDKCommon17AuthFailureReasonO"
+provides-member:
+- ["14KakaoSDKCommon8SdkErrorO", ""]
+- ["14KakaoSDKCommon19ClientFailureReasonO", ""]
+- ["14KakaoSDKCommon16ApiFailureReasonO", ""]
+- ["14KakaoSDKCommon17AuthFailureReasonO", ""]
+- ["14KakaoSDKCommon8SdkErrorO", "init"]
+- ["14KakaoSDKCommon8SdkErrorO", "init"]
+- ["14KakaoSDKCommon8SdkErrorO", "init"]
+- ["14KakaoSDKCommon8SdkErrorO", "init"]
+- ["14KakaoSDKCommon8SdkErrorO", "init"]
+- ["14KakaoSDKCommon8SdkErrorO", "isClientFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "isApiFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "isAuthFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "getClientError"]
+- ["14KakaoSDKCommon8SdkErrorO", "getApiError"]
+- ["14KakaoSDKCommon8SdkErrorO", "getAuthError"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "init"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- "=="
+- !private "??"
+- "ApiFailureReason"
+- "ApiType"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AuthErrorInfo"
+- "AuthFailureReason"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ClientFailureReason"
+- "Codable"
+- "Data"
+- "Decoder"
+- "Error"
+- "ErrorInfo"
+- "FloatLiteralType"
+- "HTTPURLResponse"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONSerialization"
+- !private "RawValue"
+- "SdkError"
+- !private "SdkJSONDecoder"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["14KakaoSDKCommon16ApiFailureReasonO", "=="]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "AgeCheckLimitExceed"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "AgeResultMismatched"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "AlreadyAgeAuthorized"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "AlreadySignedUpUsercase"]
+- !private ["14KakaoSDKCommon16ApiFailureReasonO", "ApiFailureReason"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "ApiLimitExceed"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "BadParameter"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "Blocked"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "CIResultMismatched"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "Decoder"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "Default_RawValue"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "DeprecatedApi"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "InsufficientScope"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "Internal"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "InvalidAccessToken"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "InvalidUserPropertyKey"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "LowerAgeLimit"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "NoSuchApp"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "NotAgeAuthorized"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "NotKakaoAccountUser"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "NotSignedUpUser"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "NotStoryUser"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "NotTalkUser"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "Permission"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "RawValue"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "StoryImageUploadSizeExceed"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "StoryInvalidPostId"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "StoryInvalidScrapUrl"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "StoryMaxUploadNumberExceed"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "StoryUploadTimeout"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "TalkMessageDisabled"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "TalkSendMessageDailyLimitExceed"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "TalkSendMessageMonthlyLimitExceed"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "UnderMaintenance"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "Unknown"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "UnsupportedApi"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "UserDevicedUnsupported"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", ""]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "_Default_RawValue"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "_rawHashValue"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "encode"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "hash"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "hashValue"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "init"]
+- ["14KakaoSDKCommon16ApiFailureReasonO", "rawValue"]
+- ["14KakaoSDKCommon7ApiTypeO", "KApi"]
+- ["14KakaoSDKCommon7ApiTypeO", "KAuth"]
+- !private ["14KakaoSDKCommon13AuthErrorInfoV", ""]
+- !private ["14KakaoSDKCommon13AuthErrorInfoV", "error"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "=="]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "AccessDenied"]
+- !private ["14KakaoSDKCommon17AuthFailureReasonO", "AuthFailureReason"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "AutoLogin"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "Decoder"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "Default_RawValue"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "InvalidClient"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "InvalidGrant"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "InvalidRequest"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "InvalidScope"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "Misconfigured"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "RawValue"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "ServerError"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "Unauthorized"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "Unknown"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", ""]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "_Default_RawValue"]
+- !private ["14KakaoSDKCommon17AuthFailureReasonO", "_findStringSwitchCase"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "_rawHashValue"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "encode"]
+- !private ["14KakaoSDKCommon17AuthFailureReasonO", "findStringSwitchCase"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "hash"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "hashValue"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "init"]
+- ["14KakaoSDKCommon17AuthFailureReasonO", "rawValue"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "statusCode"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "=="]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "BadParameter"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "Cancelled"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "CastingFailed"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "ExceedKakaoLinkSizeLimit"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "MustInitAppKey"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "NotSupported"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "TokenNotFound"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "Unknown"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", ""]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "__derived_enum_equals"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "_rawHashValue"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "hash"]
+- ["14KakaoSDKCommon19ClientFailureReasonO", "hashValue"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "Unknown"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s17CustomReflectableP", "Unknown"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["9Alamofire11DataDecoderP", "custom"]
+- !private ["9Alamofire11DataDecoderP", "decode"]
+- ["Se", "=="]
+- !private ["Se", "ApiFailureReason"]
+- !private ["Se", "AuthFailureReason"]
+- ["Se", "Default_RawValue"]
+- !private ["Se", "InsufficientScope"]
+- ["Se", "RawValue"]
+- !private ["Se", "Unknown"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "code"]
+- ["Se", "encode"]
+- !private ["Se", "error"]
+- !private ["Se", "findStringSwitchCase"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- ["Se", "rawValue"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- ["SE", "=="]
+- !private ["SE", "ApiFailureReason"]
+- !private ["SE", "AuthFailureReason"]
+- ["SE", "Default_RawValue"]
+- !private ["SE", "InsufficientScope"]
+- ["SE", "RawValue"]
+- !private ["SE", "Unknown"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "code"]
+- ["SE", "encode"]
+- !private ["SE", "error"]
+- !private ["SE", "findStringSwitchCase"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "init"]
+- ["SE", "rawValue"]
+- ["SQ", "=="]
+- !private ["SQ", "ApiFailureReason"]
+- !private ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "AuthFailureReason"]
+- ["SQ", "BadParameter"]
+- ["SQ", "Cancelled"]
+- ["SQ", "CastingFailed"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "Element"]
+- ["SQ", "ExceedKakaoLinkSizeLimit"]
+- !private ["SQ", "InsufficientScope"]
+- ["SQ", "KApi"]
+- ["SQ", "KAuth"]
+- ["SQ", "MustInitAppKey"]
+- ["SQ", "NotSupported"]
+- ["SQ", "RawValue"]
+- ["SQ", "TokenNotFound"]
+- ["SQ", "Unknown"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "data"]
+- ["SQ", "encode"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "statusCode"]
+- ["s5ErrorP", "ApiFailed"]
+- !private ["s5ErrorP", "ApiFailureReason"]
+- !private ["s5ErrorP", "AuthErrorInfo"]
+- ["s5ErrorP", "AuthFailed"]
+- !private ["s5ErrorP", "AuthFailureReason"]
+- ["s5ErrorP", "ClientFailed"]
+- !private ["s5ErrorP", "ClientFailureReason"]
+- !private ["s5ErrorP", "ErrorInfo"]
+- !private ["s5ErrorP", "GeneralFailed"]
+- !private ["s5ErrorP", "JSONSerialization"]
+- !private ["s5ErrorP", "SdkJSONDecoder"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "userInfo"]
+- !private ["14KakaoSDKCommon9ErrorInfoV", "CodingKeys"]
+- !private ["14KakaoSDKCommon9ErrorInfoV", ""]
+- !private ["14KakaoSDKCommon9ErrorInfoV", "code"]
+- !private ["14KakaoSDKCommon9ErrorInfoV", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "Unknown"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- ["SH", "=="]
+- !private ["SH", "ApiFailureReason"]
+- !private ["SH", "AuthFailureReason"]
+- ["SH", "BadParameter"]
+- ["SH", "Cancelled"]
+- ["SH", "CastingFailed"]
+- ["SH", "Default_RawValue"]
+- ["SH", "ExceedKakaoLinkSizeLimit"]
+- !private ["SH", "InsufficientScope"]
+- ["SH", "KApi"]
+- ["SH", "KAuth"]
+- ["SH", "MustInitAppKey"]
+- ["SH", "NotSupported"]
+- ["SH", "RawValue"]
+- ["SH", "TokenNotFound"]
+- ["SH", "Unknown"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "data"]
+- ["SH", "encode"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "statusCode"]
+- !private ["s6HasherV", "combine"]
+- ["10Foundation11JSONDecoderC", ""]
+- !private ["10Foundation11JSONDecoderC", "custom"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["So19NSJSONSerializationC", "data"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "statusCode"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataWithJSONObject"]
+- !private ["So8NSObjectC", "statusCode"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataWithJSONObject"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "init"]
+- !private ["Sq", "Unknown"]
+- ["SY", "=="]
+- !private ["SY", "ApiFailureReason"]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "AuthFailureReason"]
+- ["SY", "Default_RawValue"]
+- !private ["SY", "Element"]
+- !private ["SY", "InsufficientScope"]
+- ["SY", "RawValue"]
+- !private ["SY", "Unknown"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "encode"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["14KakaoSDKCommon8SdkErrorO", "ApiFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "ApiFailureReason"]
+- ["14KakaoSDKCommon8SdkErrorO", "ApiType"]
+- ["14KakaoSDKCommon8SdkErrorO", "AuthErrorInfo"]
+- ["14KakaoSDKCommon8SdkErrorO", "AuthFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "AuthFailureReason"]
+- ["14KakaoSDKCommon8SdkErrorO", "Bool"]
+- ["14KakaoSDKCommon8SdkErrorO", "ClientFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "ClientFailureReason"]
+- ["14KakaoSDKCommon8SdkErrorO", "Data"]
+- ["14KakaoSDKCommon8SdkErrorO", "Error"]
+- ["14KakaoSDKCommon8SdkErrorO", "ErrorInfo"]
+- ["14KakaoSDKCommon8SdkErrorO", "GeneralFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "HTTPURLResponse"]
+- !private ["14KakaoSDKCommon8SdkErrorO", "JSONSerialization"]
+- !private ["14KakaoSDKCommon8SdkErrorO", "SdkJSONDecoder"]
+- ["14KakaoSDKCommon8SdkErrorO", "String"]
+- ["14KakaoSDKCommon8SdkErrorO", ""]
+- ["14KakaoSDKCommon8SdkErrorO", "_code"]
+- ["14KakaoSDKCommon8SdkErrorO", "_domain"]
+- ["14KakaoSDKCommon8SdkErrorO", "_getEmbeddedNSError"]
+- ["14KakaoSDKCommon8SdkErrorO", "_userInfo"]
+- ["14KakaoSDKCommon8SdkErrorO", "code"]
+- ["14KakaoSDKCommon8SdkErrorO", "domain"]
+- ["14KakaoSDKCommon8SdkErrorO", "getApiError"]
+- ["14KakaoSDKCommon8SdkErrorO", "getAuthError"]
+- ["14KakaoSDKCommon8SdkErrorO", "getClientError"]
+- ["14KakaoSDKCommon8SdkErrorO", "init"]
+- ["14KakaoSDKCommon8SdkErrorO", "isApiFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "isAuthFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "isClientFailed"]
+- ["14KakaoSDKCommon8SdkErrorO", "userInfo"]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", ""]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", "custom"]
+- !private ["14KakaoSDKCommon14SdkJSONDecoderC", "decode"]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "custom"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So20NSJSONWritingOptionsV", "ArrayLiteralElement"]
+- !private ["So20NSJSONWritingOptionsV", "Element"]
+- !private ["So20NSJSONWritingOptionsV", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "Unknown"]
+depends-nominal:
+- "14KakaoSDKCommon16ApiFailureReasonO"
+- "14KakaoSDKCommon7ApiTypeO"
+- !private "14KakaoSDKCommon13AuthErrorInfoV"
+- "14KakaoSDKCommon17AuthFailureReasonO"
+- !private "s7CVarArgP"
+- "14KakaoSDKCommon19ClientFailureReasonO"
+- !private "s9CodingKeyP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataDecoderP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "14KakaoSDKCommon9ErrorInfoV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- !private "s6HasherV"
+- "10Foundation11JSONDecoderC"
+- !private "So19NSJSONSerializationC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "SY"
+- "14KakaoSDKCommon8SdkErrorO"
+- !private "14KakaoSDKCommon14SdkJSONDecoderC"
+- !private "s10SetAlgebraP"
+- !private "s28SingleValueDecodingContainerP"
+- !private "7Combine15TopLevelDecoderP"
+- "So18UIFocusEnvironmentP"
+- "So13NSURLResponseC"
+- !private "So20NSJSONWritingOptionsV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Target Support Files/KakaoSDKCommon/KakaoSDKCommon-umbrella.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKCommon/sources/KakaoSDKCommon/KakaoSDKCommon.h"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KakaoSDKCommon.build/unextended-module.modulemap"
+- "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/DerivedData/Climbmate/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "50f9bd600bbd11c93eec33ee22b9ebf3"

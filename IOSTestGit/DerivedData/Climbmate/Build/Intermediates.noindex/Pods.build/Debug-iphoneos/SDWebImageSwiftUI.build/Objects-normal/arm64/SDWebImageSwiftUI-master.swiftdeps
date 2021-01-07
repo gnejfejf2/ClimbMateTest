@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "d107d233182bfd285ae195f1a8f696f8"
+build_time: [1604417661, 407412000]
+inputs:
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/ActivityIndicator.swift": [1603715170, 571010240]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/AnimatedImage.swift": [1603715170, 572714018]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Image.swift": [1603715170, 571630522]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImageManager.swift": [1603715170, 570187598]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImageViewWrapper.swift": [1603715170, 573209124]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/Indicator.swift": [1603715170, 570684669]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/ProgressIndicator.swift": [1603715170, 571332110]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/SDWebImageSwiftUI.swift": [1603715170, 572963048]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Transition/Transition.swift": [1603715170, 569621583]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/WebImage.swift": [1603715170, 572162312]

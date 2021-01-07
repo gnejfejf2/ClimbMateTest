@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "ce5b3507f3e090b8c89a572984e2f09e"
+build_time: [1604417667, 987871000]
+inputs:
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKLink/sources/KakaoSDKLink/model/ImageUploadResult.swift": [1604379564, 766087755]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKLink/sources/KakaoSDKLink/LinkApi.swift": [1604379564, 765176789]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKLink/sources/KakaoSDKLink/model/LinkResult.swift": [1604379564, 766629827]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/KakaoSDKLink/sources/KakaoSDKLink/model/ValidationResult.swift": [1604379564, 766963203]

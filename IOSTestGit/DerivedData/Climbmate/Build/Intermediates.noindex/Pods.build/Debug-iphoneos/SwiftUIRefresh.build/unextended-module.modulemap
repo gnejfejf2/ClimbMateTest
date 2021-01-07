@@ -1,0 +1,10 @@
+framework module SwiftUIRefresh {
+  umbrella header "SwiftUIRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftUIRefresh.__Swift {
+    exclude header "SwiftUIRefresh-Swift.h"
+}

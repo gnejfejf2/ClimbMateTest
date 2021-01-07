@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "5064a6fc4b4285c31f78f8b3b64a35a2"
+build_time: [1604417661, 150490000]
+inputs:
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Introspect/Introspect/AppKitIntrospectionView.swift": [1603600714, 533460984]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Introspect/Introspect/Introspect.swift": [1603600714, 533704163]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Introspect/Introspect/UIKitIntrospectionView.swift": [1603600714, 533583300]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Introspect/Introspect/UIKitIntrospectionViewController.swift": [1603600714, 533337968]
+  "/Users/kangjiyoun/Desktop/Climate-git/Cli-mate/ios/ClimbmateIOS/Pods/Introspect/Introspect/ViewExtensions.swift": [1603600714, 533202177]
