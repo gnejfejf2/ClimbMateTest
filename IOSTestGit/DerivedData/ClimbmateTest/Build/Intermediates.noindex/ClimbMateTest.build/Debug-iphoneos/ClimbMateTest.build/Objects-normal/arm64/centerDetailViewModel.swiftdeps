@@ -81,7 +81,6 @@ depends-top-level:
 - !private "userData"
 - "||"
 depends-member:
-- !private ["s18AdditiveArithmeticP", ""]
 - !private ["9Alamofire0A8ExtendedP", "append"]
 - !private ["9Alamofire0A8ExtendedP", "count"]
 - !private ["9Alamofire0A8ExtendedP", "first"]
@@ -143,7 +142,6 @@ depends-member:
 - !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "sort"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
-- !private ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "first"]
@@ -323,12 +321,10 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
-- !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "count"]
 - !private ["s25ExpressibleByFloatLiteralP", "int"]
 - !private ["s25ExpressibleByFloatLiteralP", "string"]
 - !private ["s25ExpressibleByFloatLiteralP", "subscript"]
-- !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "count"]
 - !private ["s27ExpressibleByIntegerLiteralP", "int"]
 - !private ["s27ExpressibleByIntegerLiteralP", "string"]
@@ -347,7 +343,6 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
-- !private ["SF", ""]
 - !private ["SH", ""]
 - !private ["SH", "append"]
 - !private ["SH", "count"]
@@ -446,7 +441,6 @@ depends-member:
 - !private ["So8NSObjectP", "windows"]
 - !private ["So14NSSecureCodingP", "effectWithStyle"]
 - !private ["So14NSSecureCodingP", "init"]
-- !private ["Sj", ""]
 - !private ["7Combine16ObservableObjectP", "Analytics"]
 - ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
 - ["7Combine16ObservableObjectP", "Failure"]
@@ -535,12 +529,10 @@ depends-member:
 - !private ["ST", "sort"]
 - !private ["ST", "string"]
 - !private ["ST", "subscript"]
-- !private ["s13SignedNumericP", ""]
 - !private ["s5SliceV", "count"]
 - !private ["s5SliceV", "int"]
 - !private ["s5SliceV", "string"]
 - !private ["s5SliceV", "subscript"]
-- !private ["Sx", ""]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
@@ -586,7 +578,6 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "init"]
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
-- !private ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "present"]
 - !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
@@ -600,7 +591,6 @@ depends-member:
 - !private ["So11UIResponderC", "rootViewController"]
 - !private ["So11UIResponderC", "shared"]
 - !private ["So11UIResponderC", "windows"]
-- !private ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "present"]
 - !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
@@ -613,7 +603,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "present"]
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
-- !private ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "present"]
 - !private ["So23UIUserActivityRestoringP", "presentViewController"]
@@ -869,7 +858,6 @@ depends-member:
 - !private ["13ClimbMateTest8userDataC", "init"]
 - !private ["13ClimbMateTest8userDataC", "returnUserData"]
 depends-nominal:
-- !private "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
 - !private "So12FIRAnalyticsC"
 - !private "Sa"
@@ -900,7 +888,6 @@ depends-nominal:
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "SF"
 - !private "SH"
 - !private "s12IdentifiableP"
 - !private "10SwiftyJSON0B0V"
@@ -916,16 +903,13 @@ depends-nominal:
 - "So8NSObjectC"
 - !private "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- !private "Sj"
 - "7Combine16ObservableObjectP"
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "ST"
-- !private "s13SignedNumericP"
 - !private "s5SliceV"
-- !private "Sx"
 - !private "s27StringInterpolationProtocolP"
 - !private "So17UIBlurEffectStyleV"
 - !private "s16TextOutputStreamP"

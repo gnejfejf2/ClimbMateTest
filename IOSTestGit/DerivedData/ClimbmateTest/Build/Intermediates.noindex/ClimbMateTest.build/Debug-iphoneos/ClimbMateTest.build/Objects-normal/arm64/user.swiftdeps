@@ -139,7 +139,6 @@ depends-member:
 - ["So8NSCodingP", ""]
 - ["So8NSObjectP", ""]
 - ["10Foundation20ReferenceConvertibleP", "init"]
-- ["So18UIFocusEnvironmentP", ""]
 - ["10Foundation4UUIDV", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -205,7 +204,6 @@ depends-nominal:
 - "So8NSCodingP"
 - "So8NSObjectP"
 - "10Foundation20ReferenceConvertibleP"
-- "So18UIFocusEnvironmentP"
 - "10Foundation4UUIDV"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"

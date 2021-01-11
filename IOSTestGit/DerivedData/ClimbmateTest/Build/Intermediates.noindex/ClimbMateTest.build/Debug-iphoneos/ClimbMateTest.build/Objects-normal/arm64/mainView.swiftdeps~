@@ -53,7 +53,7 @@ depends-top-level:
 - "logManager"
 - "loginViewModel"
 - "mainView"
-- "myPageView"
+- "myPageViewRecreate"
 - "networkAlarmView"
 - "networkMonitor"
 - "notiManager"
@@ -218,7 +218,7 @@ depends-member:
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["So8NSCodingP", "Name"]
-- !private ["So8NSCodingP", ""]
+- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "Name"]
 - !private ["So20NSFetchRequestResultP", "value"]
 - !private ["So15NSManagedObjectC", "value"]
@@ -235,13 +235,14 @@ depends-member:
 - !private ["So8NSObjectC", "setTarget"]
 - !private ["So8NSObjectC", "standard"]
 - !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringForKey"]
 - !private ["So8NSObjectC", "suspend"]
 - !private ["So8NSObjectC", "sync"]
 - !private ["So8NSObjectC", "value"]
 - !private ["So8NSObjectC", "valueForKey"]
 - !private ["So8NSObjectC", "viewContext"]
 - !private ["So8NSObjectP", "Name"]
-- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "asyncAfter"]
 - !private ["So8NSObjectP", "default"]
@@ -252,6 +253,7 @@ depends-member:
 - !private ["So8NSObjectP", "setTarget"]
 - !private ["So8NSObjectP", "standard"]
 - !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringForKey"]
 - !private ["So8NSObjectP", "suspend"]
 - !private ["So8NSObjectP", "sync"]
 - !private ["So8NSObjectP", "value"]
@@ -335,6 +337,7 @@ depends-member:
 - !private ["7SwiftUI4TextV", "init"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So20UIFocusItemContainerP", ""]
 - !private ["So10UIKeyInputP", ""]
 - !private ["So17UITextInputTraitsP", ""]
@@ -381,7 +384,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "logManager"]
 - !private ["7SwiftUI4ViewP", "loginViewModel"]
-- !private ["7SwiftUI4ViewP", "myPageView"]
+- !private ["7SwiftUI4ViewP", "myPageViewRecreate"]
 - !private ["7SwiftUI4ViewP", "navigationViewStyle"]
 - !private ["7SwiftUI4ViewP", "networkAlarmView"]
 - !private ["7SwiftUI4ViewP", "networkCheck"]
@@ -530,7 +533,7 @@ depends-member:
 - ["13ClimbMateTest8mainViewV", "init"]
 - !private ["13ClimbMateTest8mainViewV", "logManager"]
 - !private ["13ClimbMateTest8mainViewV", "loginViewModel"]
-- !private ["13ClimbMateTest8mainViewV", "myPageView"]
+- !private ["13ClimbMateTest8mainViewV", "myPageViewRecreate"]
 - !private ["13ClimbMateTest8mainViewV", "networkAlarmView"]
 - ["13ClimbMateTest8mainViewV", "networkCheck"]
 - !private ["13ClimbMateTest8mainViewV", "networkMonitor"]
@@ -542,9 +545,9 @@ depends-member:
 - !private ["13ClimbMateTest8mainViewV", "staticString"]
 - ["13ClimbMateTest8mainViewV", "tabviewCount"]
 - !private ["13ClimbMateTest8mainViewV", "userData"]
-- !private ["13ClimbMateTest10myPageViewV", ""]
-- !private ["13ClimbMateTest10myPageViewV", "init"]
-- !private ["13ClimbMateTest10myPageViewV", "tabItem"]
+- !private ["13ClimbMateTest18myPageViewRecreateV", ""]
+- !private ["13ClimbMateTest18myPageViewRecreateV", "init"]
+- !private ["13ClimbMateTest18myPageViewRecreateV", "tabItem"]
 - !private ["13ClimbMateTest16networkAlarmViewV", "alert"]
 - !private ["13ClimbMateTest16networkAlarmViewV", "init"]
 - !private ["13ClimbMateTest17networkErrorModelV", "errorCheck"]
@@ -602,13 +605,13 @@ depends-nominal:
 - "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- !private "So8NSCodingP"
+- "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So20NSFetchRequestResultP"
 - !private "So15NSManagedObjectC"
 - !private "So14NSNotificationC"
 - "So8NSObjectC"
-- !private "So8NSObjectP"
+- "So8NSObjectP"
 - !private "So21NSPersistentContainerC"
 - !private "So18NSNotificationNamea"
 - !private "7SwiftUI9NamespaceV"
@@ -637,6 +640,7 @@ depends-nominal:
 - !private "7SwiftUI4TextV"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- "So18UIFocusEnvironmentP"
 - !private "So20UIFocusItemContainerP"
 - !private "So10UIKeyInputP"
 - !private "So17UITextInputTraitsP"
@@ -671,7 +675,7 @@ depends-nominal:
 - !private "13ClimbMateTest10logManagerC"
 - !private "13ClimbMateTest14loginViewModelC"
 - "13ClimbMateTest8mainViewV"
-- !private "13ClimbMateTest10myPageViewV"
+- !private "13ClimbMateTest18myPageViewRecreateV"
 - !private "13ClimbMateTest16networkAlarmViewV"
 - !private "13ClimbMateTest17networkErrorModelV"
 - !private "13ClimbMateTest14networkMonitorC"

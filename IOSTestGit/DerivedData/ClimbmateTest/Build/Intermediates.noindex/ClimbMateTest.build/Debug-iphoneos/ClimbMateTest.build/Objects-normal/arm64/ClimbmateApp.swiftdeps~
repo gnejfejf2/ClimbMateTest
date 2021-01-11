@@ -135,6 +135,7 @@ depends-member:
 - !private ["So8NSObjectC", "save"]
 - ["So8NSObjectC", "userInfo"]
 - !private ["So8NSObjectC", "viewContext"]
+- ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "hasChanges"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "loadPersistentStores"]
@@ -154,6 +155,10 @@ depends-member:
 - !private ["7SwiftUI12SceneBuilderV", "buildIf"]
 - !private ["7SwiftUI12SceneBuilderV", "buildOptional"]
 - !private ["ST", ""]
+- !private ["7SwiftUI5StateV", "init"]
+- !private ["7SwiftUI5StateV", "projectedValue"]
+- !private ["7SwiftUI5StateV", "subscript"]
+- !private ["7SwiftUI5StateV", "wrappedValue"]
 - ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - ["s27StringInterpolationProtocolP", "appendLiteral"]
 - ["s27StringInterpolationProtocolP", "init"]
@@ -230,6 +235,7 @@ depends-nominal:
 - !private "7SwiftUI5SceneP"
 - !private "7SwiftUI12SceneBuilderV"
 - !private "ST"
+- !private "7SwiftUI5StateV"
 - "s27StringInterpolationProtocolP"
 - "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"

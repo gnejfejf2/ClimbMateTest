@@ -17,7 +17,8 @@ depends-top-level:
 - !private "urlToLoad"
 - "webViewModel"
 depends-member:
-- !private ["SK", ""]
+- ["7SwiftUI10AnimatableP", ""]
+- ["SK", ""]
 - !private ["SK", "addingPercentEncoding"]
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "load"]
@@ -28,9 +29,9 @@ depends-member:
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "load"]
 - !private ["10Foundation12CharacterSetV", "urlQueryAllowed"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - !private ["Sl", "addingPercentEncoding"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["SL", "addingPercentEncoding"]
 - !private ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
@@ -39,7 +40,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "urlQueryAllowed"]
 - !private ["s17CustomReflectableP", "addingPercentEncoding"]
 - !private ["s17CustomReflectableP", "init"]
-- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "load"]
@@ -50,31 +51,31 @@ depends-member:
 - !private ["SE", "addingPercentEncoding"]
 - !private ["SE", "init"]
 - !private ["SE", "urlQueryAllowed"]
-- !private ["SQ", ""]
+- ["SQ", ""]
 - !private ["SQ", "addingPercentEncoding"]
 - !private ["SQ", "init"]
 - !private ["SQ", "load"]
 - !private ["SQ", "urlQueryAllowed"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "urlQueryAllowed"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "addingPercentEncoding"]
-- !private ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
-- !private ["SH", ""]
+- ["SH", ""]
 - !private ["SH", "addingPercentEncoding"]
 - !private ["SH", "init"]
 - !private ["SH", "load"]
 - !private ["SH", "urlQueryAllowed"]
 - !private ["10SwiftyJSON17JSONSubscriptTypeP", "addingPercentEncoding"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
 - !private ["s10MirrorPathP", "addingPercentEncoding"]
-- !private ["So8NSCodingP", ""]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addingPercentEncoding"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "load"]
@@ -91,7 +92,7 @@ depends-member:
 - !private ["So8NSObjectC", "loadData"]
 - !private ["So8NSObjectC", "loadRequest"]
 - !private ["So8NSObjectC", "stringByAddingPercentEncodingWithAllowedCharacters"]
-- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "addingPercentEncoding"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "load"]
@@ -103,14 +104,14 @@ depends-member:
 - !private ["Sm", "addingPercentEncoding"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "urlQueryAllowed"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["ST", "addingPercentEncoding"]
 - !private ["s10SetAlgebraP", "urlQueryAllowed"]
 - !private ["SS", "addingPercentEncoding"]
 - !private ["Sy", "addingPercentEncoding"]
-- !private ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "addingPercentEncoding"]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "load"]
@@ -132,7 +133,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "load"]
 - !private ["So13UIDynamicItemP", "loadData"]
 - !private ["So13UIDynamicItemP", "loadRequest"]
-- !private ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "load"]
 - !private ["So18UIFocusEnvironmentP", "loadData"]
@@ -236,10 +237,11 @@ depends-member:
 - !private ["So9WKWebViewC", "load"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "addingPercentEncoding"]
@@ -293,51 +295,52 @@ depends-member:
 - ["13ClimbMateTest12webViewModelV", "urlToLoad"]
 - ["13ClimbMateTest12webViewModelV", "webViewModel"]
 depends-nominal:
-- !private "SK"
+- "7SwiftUI10AnimatableP"
+- "SK"
 - !private "So15CALayerDelegateP"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
 - !private "10Foundation12CharacterSetV"
-- !private "Sl"
-- !private "SL"
+- "Sl"
+- "SL"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
-- !private "s23CustomStringConvertibleP"
+- "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "SE"
-- !private "SQ"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "SH"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
 - !private "10SwiftyJSON17JSONSubscriptTypeP"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- !private "So8NSCodingP"
+- "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
-- !private "So8NSObjectP"
+- "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
-- !private "ST"
+- "ST"
 - !private "s10SetAlgebraP"
 - !private "SS"
 - !private "Sy"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
 - !private "So17UICoordinateSpaceP"
 - !private "So13UIDynamicItemP"
-- !private "So18UIFocusEnvironmentP"
+- "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
 - !private "So20UIFocusItemContainerP"
 - !private "So24UILargeContentViewerItemP"
@@ -355,9 +358,10 @@ depends-nominal:
 - "7SwiftUI4ViewP"
 - !private "So9WKWebViewC"
 - !private "s30_CustomPlaygroundQuickLookableP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

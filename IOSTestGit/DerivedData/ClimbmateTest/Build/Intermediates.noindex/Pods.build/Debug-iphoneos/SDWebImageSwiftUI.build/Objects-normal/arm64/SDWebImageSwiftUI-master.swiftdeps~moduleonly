@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "aad8c51ec8f2708f75bd0866501ba502"
-build_time: [1610012970, 709407000]
+build_time: [1610346902, 146312000]
 inputs:
   "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/ActivityIndicator.swift": [1609835633, 0]
   "/Users/kangjiyoun/Desktop/ClimbMateTest/IOSTestGit/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/AnimatedImage.swift": [1609835633, 0]

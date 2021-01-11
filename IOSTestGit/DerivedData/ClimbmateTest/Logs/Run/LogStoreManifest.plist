@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>8ACAD945-0E91-496A-A8AF-8FBA785B2875</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8ACAD945-0E91-496A-A8AF-8FBA785B2875.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>631705805.68461204</real>
+			<key>timeStoppedRecording</key>
+			<real>631706596.14864898</real>
+			<key>title</key>
+			<string>Run ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>8ACAD945-0E91-496A-A8AF-8FBA785B2875</string>
+		</dict>
+		<key>DB9BC27C-4106-41DD-881B-6FF1F4E4ACAC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DB9BC27C-4106-41DD-881B-6FF1F4E4ACAC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>632039387.50819898</real>
+			<key>timeStoppedRecording</key>
+			<real>632039698.07459497</real>
+			<key>title</key>
+			<string>Run ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>DB9BC27C-4106-41DD-881B-6FF1F4E4ACAC</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

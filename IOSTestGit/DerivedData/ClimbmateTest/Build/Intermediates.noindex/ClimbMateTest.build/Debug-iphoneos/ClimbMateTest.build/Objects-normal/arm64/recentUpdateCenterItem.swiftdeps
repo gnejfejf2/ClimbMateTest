@@ -9,6 +9,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - "*"
 - "=="
+- !private "Array"
 - "CGFloat"
 - "Color"
 - "FloatLiteralType"
@@ -33,18 +34,20 @@ depends-top-level:
 - "staticString"
 depends-member:
 - !private ["9Alamofire0A8ExtendedP", "subscript"]
+- ["7SwiftUI10AnimatableP", ""]
 - !private ["Sa", "subscript"]
-- !private ["SK", ""]
+- ["SK", ""]
 - !private ["SK", "subscript"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
 - ["s7CVarArgP", "main"]
 - ["s7CVarArgP", "nativeScale"]
 - !private ["s7CVarArgP", "subscript"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - !private ["Sl", "subscript"]
 - !private ["7SwiftUI5ColorV", "gray"]
 - !private ["7SwiftUI5ColorV", "init"]
 - !private ["7SwiftUI5ColorV", "opacity"]
+- ["SL", ""]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "gray"]
@@ -58,7 +61,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "system"]
 - !private ["s17CustomReflectableP", "thin"]
-- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "gray"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "main"]
@@ -87,6 +90,11 @@ depends-member:
 - !private ["SE", "subscript"]
 - !private ["SE", "system"]
 - !private ["SE", "thin"]
+- !private ["7SwiftUI11EnvironmentV", "init"]
+- !private ["7SwiftUI11EnvironmentV", "projectedValue"]
+- !private ["7SwiftUI11EnvironmentV", "subscript"]
+- !private ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- !private ["7SwiftUI11EnvironmentV", "wrapperValue"]
 - ["SQ", ""]
 - !private ["SQ", "cornerRadius"]
 - !private ["SQ", "font"]
@@ -105,24 +113,29 @@ depends-member:
 - !private ["SQ", "top"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "horizontal"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "top"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "gray"]
 - !private ["s23ExpressibleByNilLiteralP", "system"]
 - !private ["s23ExpressibleByNilLiteralP", "thin"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI4FontV", "system"]
 - !private ["7SwiftUI7GestureP", "gray"]
 - !private ["7SwiftUI7GestureP", "system"]
 - !private ["7SwiftUI7GestureP", "thin"]
 - !private ["7SwiftUI6HStackV", "init"]
 - !private ["7SwiftUI6HStackV", "padding"]
-- !private ["SH", ""]
+- ["SH", ""]
 - !private ["SH", "gray"]
 - !private ["SH", "init"]
 - ["SH", "main"]
@@ -140,9 +153,11 @@ depends-member:
 - !private ["7SwiftUI5ImageV", "foregroundColor"]
 - !private ["7SwiftUI5ImageV", "init"]
 - !private ["7SwiftUI5ImageV", "resizable"]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "main"]
 - ["So8NSObjectC", "nativeScale"]
@@ -164,7 +179,7 @@ depends-member:
 - !private ["SY", "horizontal"]
 - !private ["SY", "top"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["ST", "subscript"]
 - !private ["7SwiftUI4EdgeO3SetV", "horizontal"]
 - !private ["7SwiftUI4EdgeO3SetV", "top"]
@@ -175,6 +190,10 @@ depends-member:
 - !private ["7SwiftUI10ShapeStyleP", "init"]
 - !private ["7SwiftUI10ShapeStyleP", "opacity"]
 - !private ["7SwiftUI6SpacerV", "init"]
+- !private ["7SwiftUI5StateV", "init"]
+- !private ["7SwiftUI5StateV", "projectedValue"]
+- !private ["7SwiftUI5StateV", "subscript"]
+- !private ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
 - !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
@@ -184,6 +203,9 @@ depends-member:
 - !private ["7SwiftUI4TextV", "fontWeight"]
 - !private ["7SwiftUI4TextV", "foregroundColor"]
 - !private ["7SwiftUI4TextV", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So18UIFocusEnvironmentP", ""]
 - ["So8UIScreenC", "main"]
 - ["So8UIScreenC", "nativeScale"]
 - ["So18UITraitEnvironmentP", "main"]
@@ -245,9 +267,12 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
@@ -301,12 +326,14 @@ depends-member:
 - !private ["13ClimbMateTest12staticStringC", "staticClickType"]
 depends-nominal:
 - !private "9Alamofire0A8ExtendedP"
+- "7SwiftUI10AnimatableP"
 - !private "Sa"
-- !private "SK"
+- "SK"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- !private "Sl"
+- "Sl"
 - !private "7SwiftUI5ColorV"
+- "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -314,20 +341,25 @@ depends-nominal:
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "SE"
+- !private "7SwiftUI11EnvironmentV"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "7SwiftUI4FontV"
 - !private "7SwiftUI7GestureP"
 - !private "7SwiftUI6HStackV"
 - "SH"
 - !private "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
+- "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "7SwiftUI14NavigationLinkV"
@@ -337,14 +369,18 @@ depends-nominal:
 - !private "Sm"
 - !private "SY"
 - !private "10Foundation20ReferenceConvertibleP"
-- !private "ST"
+- "ST"
 - !private "7SwiftUI4EdgeO3SetV"
 - !private "s10SetAlgebraP"
 - !private "7SwiftUI10ShapeStyleP"
 - !private "7SwiftUI6SpacerV"
+- !private "7SwiftUI5StateV"
 - !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
 - !private "s27StringInterpolationProtocolP"
 - !private "7SwiftUI4TextV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So18UIFocusEnvironmentP"
 - "So8UIScreenC"
 - "So18UITraitEnvironmentP"
 - !private "10Foundation3URLV"
@@ -358,9 +394,12 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

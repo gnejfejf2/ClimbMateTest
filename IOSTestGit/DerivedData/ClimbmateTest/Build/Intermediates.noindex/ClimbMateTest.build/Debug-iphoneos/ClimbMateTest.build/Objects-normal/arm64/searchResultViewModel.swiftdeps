@@ -128,10 +128,6 @@ depends-member:
 - !private ["SB", "init"]
 - !private ["Sz", ""]
 - !private ["Sz", "init"]
-- ["7SwiftUI7BindingV", "init"]
-- ["7SwiftUI7BindingV", "projectedValue"]
-- ["7SwiftUI7BindingV", "subscript"]
-- ["7SwiftUI7BindingV", "wrappedValue"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "append"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "contains"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "count"]
@@ -680,7 +676,7 @@ depends-member:
 - !private ["So8NSObjectC", "valueWithRange"]
 - !private ["So8NSObjectC", "valueWithUIEdgeInsets"]
 - !private ["So8NSObjectC", "valueWithUIOffset"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "asyncAfter"]
 - !private ["So8NSObjectP", "evaluate"]
@@ -890,7 +886,6 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["7Combine15TopLevelEncoderP", "encode"]
 - !private ["7Combine15TopLevelEncoderP", "init"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["9Alamofire14URLConvertibleP", "init"]
 - !private ["7SwiftUI16VectorArithmeticP", "init"]
 - !private ["s14_ArrayProtocolP", "append"]
@@ -1193,7 +1188,6 @@ depends-member:
 - !private ["13ClimbMateTest12staticStringC", "staticNilNetworkErrorReasonReturn"]
 - !private ["13ClimbMateTest8userDataC", "init"]
 - !private ["13ClimbMateTest8userDataC", "returnUserData"]
-- !private ["13ClimbMateTest7xyModelV", "CodingKeys"]
 - !private ["13ClimbMateTest7xyModelV", ""]
 - !private ["13ClimbMateTest7xyModelV", "init"]
 depends-nominal:
@@ -1205,7 +1199,6 @@ depends-nominal:
 - "SK"
 - !private "SB"
 - !private "Sz"
-- "7SwiftUI7BindingV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
 - !private "s9CodingKeyP"
@@ -1252,7 +1245,7 @@ depends-nominal:
 - !private "So20NSFetchRequestResultP"
 - !private "So8NSNumberC"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectP"
 - !private "So11NSPredicateC"
 - !private "So14NSSecureCodingP"
 - "So7NSValueC"
@@ -1277,7 +1270,6 @@ depends-nominal:
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - !private "7Combine15TopLevelEncoderP"
-- "So18UIFocusEnvironmentP"
 - !private "9Alamofire14URLConvertibleP"
 - !private "7SwiftUI16VectorArithmeticP"
 - !private "s14_ArrayProtocolP"

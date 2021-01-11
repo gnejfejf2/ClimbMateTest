@@ -43,6 +43,9 @@ struct homeView: View {
     //해당변수가 노티이벤트의 변수를 결정한다 대부분 한가지로 사용하기때문에 한가지로 통일함
     @State var eventValue : String = ""
     @State private var currentImageIndex = 0
+    
+    @State var durationTime : Double = 0
+    
     var body: some View {
         ZStack{
             if(self.eventType == "0"){
@@ -83,8 +86,8 @@ struct homeView: View {
                             .padding(.horizontal)
                             //탭뷰시 위아래 스크롤을 못하게 막아주는 코드
                             .onReceive(self.timer, perform: { _ in
-                                withAnimation(.easeInOut(duration: 0.3)){
-                                    //일정시간마다 인덱스를 변경해준
+                                withAnimation(.easeInOut(duration: self.durationTime)){
+                                    //일정시간마다 인덱스를 변경해준다
                                     self.currentImageIndex = self.currentImageIndex < self.bannerList.count ? self.currentImageIndex + 1 : 0
                                 }
                                 
@@ -156,6 +159,8 @@ struct homeView: View {
                     if(error.errorCheck){
                         alertManager().alertView(title: "배너", reason: error.networkErrorReason!)
                     }else{
+                        self.durationTime = 5.0 / Double(result!.count)
+                        
                         self.bannerList = result!
                     }
                     

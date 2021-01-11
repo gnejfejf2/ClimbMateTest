@@ -2,7 +2,7 @@
 //  NotiEvent+CoreDataProperties.swift
 //  
 //
-//  Created by kang jiyoun on 2021. 1. 7..
+//  Created by kang jiyoun on 2021. 1. 11..
 //
 //  This file was automatically generated and should not be edited.
 //

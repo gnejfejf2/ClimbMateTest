@@ -15,6 +15,7 @@ depends-top-level:
 - "&&"
 - "+"
 - "..<"
+- "/"
 - "<"
 - "<="
 - "=="
@@ -30,6 +31,7 @@ depends-top-level:
 - !private "CastingPrecedence"
 - "Color"
 - "DispatchQueue"
+- "Double"
 - "FloatLiteralType"
 - "ForEach"
 - "HStack"
@@ -86,6 +88,7 @@ depends-top-level:
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
 - !private ["s18AdditiveArithmeticP", "horizontal"]
+- !private ["s18AdditiveArithmeticP", "init"]
 - !private ["9Alamofire0A8ExtendedP", "count"]
 - !private ["9Alamofire0A8ExtendedP", "first"]
 - ["9Alamofire0A8ExtendedP", "init"]
@@ -119,6 +122,7 @@ depends-member:
 - !private ["SK", "removeAll"]
 - !private ["SK", "subscript"]
 - !private ["SB", "horizontal"]
+- !private ["SB", "init"]
 - ["7SwiftUI7BindingV", "init"]
 - ["7SwiftUI7BindingV", "projectedValue"]
 - ["7SwiftUI7BindingV", "subscript"]
@@ -172,6 +176,7 @@ depends-member:
 - !private ["7SwiftUI5ColorV", "opacity"]
 - ["SL", ""]
 - !private ["SL", "horizontal"]
+- !private ["SL", "init"]
 - ["7Combine20ConnectablePublisherP", "autoconnect"]
 - !private ["7Combine20ConnectablePublisherP", "connect"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
@@ -298,6 +303,7 @@ depends-member:
 - !private ["So18OS_dispatch_objectC", "sync"]
 - !private ["So17OS_dispatch_queueC", "asyncAfter"]
 - !private ["So17OS_dispatch_queueC", "main"]
+- !private ["Sd", "init"]
 - ["7SwiftUI15DynamicPropertyP", "init"]
 - ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - !private ["7SwiftUI18DynamicViewContentP", "init"]
@@ -398,6 +404,7 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "horizontal"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "horizontal"]
@@ -418,6 +425,7 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - !private ["SF", "horizontal"]
+- !private ["SF", "init"]
 - !private ["7SwiftUI4FontV", "system"]
 - !private ["7SwiftUI7ForEachV", "init"]
 - !private ["7SwiftUI7GestureP", "black"]
@@ -474,6 +482,7 @@ depends-member:
 - !private ["s20LazySequenceProtocolP", "imageClickLink"]
 - !private ["s20LazySequenceProtocolP", "imageURL"]
 - ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - ["So13NSRunLoopModea", "common"]
 - ["SM", ""]
 - !private ["SM", "count"]
@@ -535,6 +544,7 @@ depends-member:
 - !private ["7SwiftUI14NavigationLinkV", "init"]
 - !private ["Sj", ""]
 - !private ["Sj", "horizontal"]
+- !private ["Sj", "init"]
 - ["So9OS_objectC", ""]
 - !private ["So9OS_objectC", "activate"]
 - !private ["So9OS_objectC", "asyncAfter"]
@@ -611,6 +621,7 @@ depends-member:
 - !private ["So26SCNetworkReachabilityFlagsV", "Element"]
 - !private ["So26SCNetworkReachabilityFlagsV", "RawValue"]
 - !private ["So26SCNetworkReachabilityFlagsV", "init"]
+- !private ["s10SIMDScalarP", "init"]
 - !private ["7Combine9SchedulerP", "asyncAfter"]
 - ["7Combine9SchedulerP", "main"]
 - !private ["7SwiftUI10ScrollViewV", "frame"]
@@ -650,6 +661,7 @@ depends-member:
 - !private ["7SwiftUI10ShapeStyleP", "opacity"]
 - !private ["s13SignedNumericP", ""]
 - !private ["s13SignedNumericP", "horizontal"]
+- !private ["s13SignedNumericP", "init"]
 - !private ["s5SliceV", "imageClickLink"]
 - !private ["s5SliceV", "imageURL"]
 - !private ["7SwiftUI6SpacerV", "init"]
@@ -659,6 +671,7 @@ depends-member:
 - ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["Sx", ""]
 - !private ["Sx", "horizontal"]
+- !private ["Sx", "init"]
 - !private ["7SwiftUI7TabViewV", "clipShape"]
 - !private ["7SwiftUI7TabViewV", "init"]
 - !private ["7SwiftUI12TabViewStyleP", "init"]
@@ -668,6 +681,7 @@ depends-member:
 - !private ["7SwiftUI4TextV", "init"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
 - ["So7NSTimerC", "publish"]
 - ["So7NSTimerC10FoundationE14TimerPublisherC", "autoconnect"]
 - !private ["So29UIAccessibilityIdentificationP", "endEditing"]
@@ -713,6 +727,7 @@ depends-member:
 - !private ["7SwiftUI6VStackV", "init"]
 - !private ["7SwiftUI6VStackV", "onChange"]
 - !private ["7SwiftUI16VectorArithmeticP", "horizontal"]
+- !private ["7SwiftUI16VectorArithmeticP", "init"]
 - !private ["7SwiftUI4ViewP", "$centerList"]
 - !private ["7SwiftUI4ViewP", "$currentImageIndex"]
 - !private ["7SwiftUI4ViewP", "$nearCenterList"]
@@ -729,6 +744,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "Color"]
 - ["7SwiftUI4ViewP", "Default_Body"]
 - !private ["7SwiftUI4ViewP", "DispatchQueue"]
+- !private ["7SwiftUI4ViewP", "Double"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
 - !private ["7SwiftUI4ViewP", "HStack"]
 - !private ["7SwiftUI4ViewP", "Image"]
@@ -769,6 +785,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "connectivity"]
 - !private ["7SwiftUI4ViewP", "currentImageIndex"]
 - !private ["7SwiftUI4ViewP", "devideLineView"]
+- !private ["7SwiftUI4ViewP", "durationTime"]
 - !private ["7SwiftUI4ViewP", "easeInOut"]
 - !private ["7SwiftUI4ViewP", "easeOut"]
 - !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
@@ -846,7 +863,9 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "removeAll"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s15_CVarArgAlignedP", "horizontal"]
+- !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "horizontal"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "size"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "width"]
@@ -866,6 +885,7 @@ depends-member:
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["7SwiftUI18_FormatSpecifiableP", "horizontal"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
 - !private ["s19_HasContiguousBytesP", "count"]
 - !private ["s19_HasContiguousBytesP", "first"]
 - ["s19_HasContiguousBytesP", "init"]
@@ -947,6 +967,7 @@ depends-member:
 - ["13ClimbMateTest8homeViewV", "$animate"]
 - ["13ClimbMateTest8homeViewV", "$bannerList"]
 - !private ["13ClimbMateTest8homeViewV", "$currentImageIndex"]
+- ["13ClimbMateTest8homeViewV", "$durationTime"]
 - ["13ClimbMateTest8homeViewV", "$eventType"]
 - ["13ClimbMateTest8homeViewV", "$eventValue"]
 - ["13ClimbMateTest8homeViewV", "$firstLocation"]
@@ -965,6 +986,7 @@ depends-member:
 - !private ["13ClimbMateTest8homeViewV", "Color"]
 - ["13ClimbMateTest8homeViewV", "Default_Body"]
 - !private ["13ClimbMateTest8homeViewV", "DispatchQueue"]
+- ["13ClimbMateTest8homeViewV", "Double"]
 - !private ["13ClimbMateTest8homeViewV", "ForEach"]
 - !private ["13ClimbMateTest8homeViewV", "Image"]
 - !private ["13ClimbMateTest8homeViewV", "NavigationLink"]
@@ -987,6 +1009,7 @@ depends-member:
 - !private ["13ClimbMateTest8homeViewV", "_animate"]
 - !private ["13ClimbMateTest8homeViewV", "_bannerList"]
 - !private ["13ClimbMateTest8homeViewV", "_currentImageIndex"]
+- !private ["13ClimbMateTest8homeViewV", "_durationTime"]
 - !private ["13ClimbMateTest8homeViewV", "_eventType"]
 - !private ["13ClimbMateTest8homeViewV", "_eventValue"]
 - !private ["13ClimbMateTest8homeViewV", "_firstLocation"]
@@ -1010,6 +1033,7 @@ depends-member:
 - ["13ClimbMateTest8homeViewV", "centerModel"]
 - !private ["13ClimbMateTest8homeViewV", "currentImageIndex"]
 - !private ["13ClimbMateTest8homeViewV", "devideLineView"]
+- ["13ClimbMateTest8homeViewV", "durationTime"]
 - ["13ClimbMateTest8homeViewV", "eventType"]
 - ["13ClimbMateTest8homeViewV", "eventValue"]
 - ["13ClimbMateTest8homeViewV", "firstLocation"]
@@ -1164,6 +1188,7 @@ depends-nominal:
 - "Se"
 - "So18OS_dispatch_objectC"
 - !private "So17OS_dispatch_queueC"
+- !private "Sd"
 - "7SwiftUI15DynamicPropertyP"
 - !private "7SwiftUI18DynamicViewContentP"
 - !private "7SwiftUI10EdgeInsetsV"
@@ -1213,6 +1238,7 @@ depends-nominal:
 - !private "7SwiftUI16RoundedRectangleV"
 - "So9NSRunLoopC"
 - !private "So26SCNetworkReachabilityFlagsV"
+- !private "s10SIMDScalarP"
 - "7Combine9SchedulerP"
 - !private "7SwiftUI10ScrollViewV"
 - "ST"
@@ -1501,4 +1527,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a730abad3802ca2ea2c981c6e64745f7"
+interface-hash: "92bfba633fe4bd22690a4617675efe68"

@@ -27,10 +27,6 @@ depends-member:
 - !private ["So28UIPageControlBackgroundStyleV", "RawValue"]
 - !private ["So28UIPageControlBackgroundStyleV", "rawValue"]
 - !private ["SK", ""]
-- ["7SwiftUI7BindingV", "init"]
-- ["7SwiftUI7BindingV", "projectedValue"]
-- ["7SwiftUI7BindingV", "subscript"]
-- ["7SwiftUI7BindingV", "wrappedValue"]
 - !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "backgroundStyle"]
 - !private ["So15CALayerDelegateP", "currentPage"]
@@ -430,7 +426,6 @@ depends-member:
 depends-nominal:
 - !private "So28UIPageControlBackgroundStyleV"
 - !private "SK"
-- "7SwiftUI7BindingV"
 - !private "So15CALayerDelegateP"
 - !private "s7CVarArgP"
 - !private "Sl"

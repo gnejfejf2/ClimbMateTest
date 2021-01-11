@@ -634,7 +634,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "safeAreaInsets"]
 - !private ["So30UIPasteConfigurationSupportingP", "shared"]
 - !private ["So30UIPasteConfigurationSupportingP", "windows"]
-- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", ""]
 - !private ["So11UIResponderC", "endEditing"]
 - !private ["So11UIResponderC", "keyboardDidHideNotification"]
 - !private ["So11UIResponderC", "keyboardDidShowNotification"]
@@ -1178,7 +1178,7 @@ depends-nominal:
 - !private "So20UIFocusItemContainerP"
 - !private "So24UILargeContentViewerItemP"
 - !private "So30UIPasteConfigurationSupportingP"
-- "So11UIResponderC"
+- !private "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"
 - "So8UIScreenC"
 - !private "So17UITextContentTypea"

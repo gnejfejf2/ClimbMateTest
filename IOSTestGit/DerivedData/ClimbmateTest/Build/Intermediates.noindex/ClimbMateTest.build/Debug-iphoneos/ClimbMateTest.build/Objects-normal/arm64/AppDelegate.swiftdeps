@@ -753,7 +753,6 @@ depends-member:
 - ["So21UIApplicationDelegateP", "userNotificationCenter"]
 - ["So21UIApplicationDelegateP", "window"]
 - !private ["So23UIBackgroundFetchResultV", "newData"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So20UIFocusItemContainerP", ""]
 - !private ["So10UIKeyInputP", ""]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
@@ -836,7 +835,7 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
@@ -1013,7 +1012,6 @@ depends-nominal:
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - !private "So23UIBackgroundFetchResultV"
-- "So18UIFocusEnvironmentP"
 - !private "So20UIFocusItemContainerP"
 - !private "So10UIKeyInputP"
 - "So30UIPasteConfigurationSupportingP"
@@ -1036,7 +1034,7 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"

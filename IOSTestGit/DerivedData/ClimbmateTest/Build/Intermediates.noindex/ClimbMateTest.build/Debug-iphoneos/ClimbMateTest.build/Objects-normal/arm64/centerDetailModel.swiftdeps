@@ -252,9 +252,7 @@ depends-member:
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
 - ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
 - ["10Foundation20ReferenceConvertibleP", "init"]
-- ["So18UIFocusEnvironmentP", ""]
 - ["10Foundation4UUIDV", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
@@ -421,9 +419,7 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - "So8NSCodingP"
-- "So8NSObjectP"
 - "10Foundation20ReferenceConvertibleP"
-- "So18UIFocusEnvironmentP"
 - "10Foundation4UUIDV"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"

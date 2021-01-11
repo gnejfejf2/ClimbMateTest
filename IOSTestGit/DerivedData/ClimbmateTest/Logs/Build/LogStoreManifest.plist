@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>B052D344-4440-4B1B-BB9E-6779E06A113D</key>
+		<key>98992843-4AE6-46F3-B6F0-88625C74BA9F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B052D344-4440-4B1B-BB9E-6779E06A113D.xcactivitylog</string>
+			<string>98992843-4AE6-46F3-B6F0-88625C74BA9F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,81 @@
 			<key>signature</key>
 			<string>Build ClimbMateTest</string>
 			<key>timeStartedRecording</key>
-			<real>631705769.06066203</real>
+			<real>632039706.53271103</real>
 			<key>timeStoppedRecording</key>
-			<real>631705805.66749203</real>
+			<real>632039710.70885396</real>
 			<key>title</key>
 			<string>Build ClimbMateTest</string>
 			<key>uniqueIdentifier</key>
-			<string>B052D344-4440-4B1B-BB9E-6779E06A113D</string>
+			<string>98992843-4AE6-46F3-B6F0-88625C74BA9F</string>
+		</dict>
+		<key>B75AC0D8-D74B-4D57-804E-EA957ABAF17D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B75AC0D8-D74B-4D57-804E-EA957ABAF17D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>632039383.43115103</real>
+			<key>timeStoppedRecording</key>
+			<real>632039387.49172902</real>
+			<key>title</key>
+			<string>Build ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>B75AC0D8-D74B-4D57-804E-EA957ABAF17D</string>
+		</dict>
+		<key>B78838CF-605A-4F3F-BFD2-9796753532E3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B78838CF-605A-4F3F-BFD2-9796753532E3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>632039697.90753198</real>
+			<key>timeStoppedRecording</key>
+			<real>632039706.527614</real>
+			<key>title</key>
+			<string>Build ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>B78838CF-605A-4F3F-BFD2-9796753532E3</string>
 		</dict>
 		<key>C1FC9E85-7864-4F68-A439-1268E91B9B35</key>
 		<dict>
@@ -73,6 +141,74 @@
 			<string>Build ClimbMateTest</string>
 			<key>uniqueIdentifier</key>
 			<string>C1FC9E85-7864-4F68-A439-1268E91B9B35</string>
+		</dict>
+		<key>D1C24C32-5C55-4257-AC99-7BB8C8CEF70F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D1C24C32-5C55-4257-AC99-7BB8C8CEF70F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>632039712.75757802</real>
+			<key>timeStoppedRecording</key>
+			<real>632039712.92438698</real>
+			<key>title</key>
+			<string>Build ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>D1C24C32-5C55-4257-AC99-7BB8C8CEF70F</string>
+		</dict>
+		<key>FF02C8AA-490C-4DA9-ABF2-58D23D4A2FD8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FF02C8AA-490C-4DA9-ABF2-58D23D4A2FD8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ClimbMateTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ClimbMateTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ClimbMateTest</string>
+			<key>timeStartedRecording</key>
+			<real>632039357.23694003</real>
+			<key>timeStoppedRecording</key>
+			<real>632039383.32692397</real>
+			<key>title</key>
+			<string>Build ClimbMateTest</string>
+			<key>uniqueIdentifier</key>
+			<string>FF02C8AA-490C-4DA9-ABF2-58D23D4A2FD8</string>
 		</dict>
 	</dict>
 </dict>

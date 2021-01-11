@@ -281,7 +281,7 @@ depends-member:
 - !private ["So8NSObjectC", "value"]
 - !private ["So8NSObjectC", "valueForKey"]
 - ["So8NSObjectC", "viewContext"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "dateFormat"]
 - !private ["So8NSObjectP", "dateFormatFromTemplate"]
 - !private ["So8NSObjectP", "delete"]
@@ -367,7 +367,6 @@ depends-member:
 - !private ["ST", "subscript"]
 - !private ["ST", "underestimatedCount"]
 - !private ["ST", "withContiguousStorageIfAvailable"]
-- !private ["So18UIFocusEnvironmentP", ""]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "firstIndex"]
 - !private ["s14_ArrayProtocolP", "remove"]
@@ -501,7 +500,6 @@ depends-nominal:
 - !private "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "ST"
-- !private "So18UIFocusEnvironmentP"
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"

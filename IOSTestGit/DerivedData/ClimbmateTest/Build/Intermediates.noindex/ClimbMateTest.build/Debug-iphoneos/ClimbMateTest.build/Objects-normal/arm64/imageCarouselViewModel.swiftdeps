@@ -36,7 +36,7 @@ depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
 - !private ["7SwiftUI9AlignmentV", "bottom"]
 - !private ["7SwiftUI9AlignmentV", "leading"]
-- ["7SwiftUI10AnimatableP", ""]
+- !private ["7SwiftUI10AnimatableP", ""]
 - !private ["7SwiftUI10AnimatableP", "frame"]
 - !private ["7SwiftUI10AnimatableP", "height"]
 - !private ["7SwiftUI10AnimatableP", "init"]
@@ -343,7 +343,7 @@ depends-member:
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - !private "7SwiftUI9AlignmentV"
-- "7SwiftUI10AnimatableP"
+- !private "7SwiftUI10AnimatableP"
 - !private "7SwiftUI9AnimationV"
 - "SK"
 - !private "SB"

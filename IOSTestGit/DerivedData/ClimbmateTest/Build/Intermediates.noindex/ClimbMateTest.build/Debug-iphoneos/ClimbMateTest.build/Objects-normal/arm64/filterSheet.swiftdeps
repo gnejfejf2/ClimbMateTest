@@ -58,13 +58,12 @@ depends-member:
 - !private ["9Alamofire0A8ExtendedP", "indices"]
 - !private ["9Alamofire0A8ExtendedP", "subscript"]
 - !private ["7SwiftUI9AlignmentV", "leading"]
-- ["7SwiftUI10AnimatableP", ""]
 - ["7SwiftUI10AnimatableP", "width"]
 - !private ["7SwiftUI9AnimationV", "callAsFunction"]
 - !private ["7SwiftUI9AnimationV", "easeInOut"]
 - !private ["Sa", "indices"]
 - !private ["Sa", "subscript"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "indices"]
 - !private ["SK", "subscript"]
 - !private ["SB", "binade"]
@@ -94,7 +93,7 @@ depends-member:
 - ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "toggle"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "indices"]
 - !private ["Sl", "subscript"]
 - !private ["7SwiftUI5ColorV", "init"]
@@ -105,7 +104,7 @@ depends-member:
 - !private ["7SwiftUI15CommandsBuilderV", "buildFinalResult"]
 - !private ["7SwiftUI15CommandsBuilderV", "buildIf"]
 - !private ["7SwiftUI15CommandsBuilderV", "buildOptional"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "init"]
 - !private ["10Foundation15ContiguousBytesP", "indices"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
@@ -135,7 +134,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "system"]
 - !private ["s17CustomReflectableP", "toggle"]
 - ["s17CustomReflectableP", "width"]
-- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "bounds"]
 - !private ["s23CustomStringConvertibleP", "callAsFunction"]
 - !private ["s23CustomStringConvertibleP", "easeInOut"]
@@ -208,7 +207,6 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "top"]
 - !private ["s25ExpressibleByArrayLiteralP", "vertical"]
 - !private ["s27ExpressibleByBooleanLiteralP", "toggle"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
@@ -220,11 +218,8 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "semibold"]
 - !private ["s23ExpressibleByNilLiteralP", "some"]
 - !private ["s23ExpressibleByNilLiteralP", "system"]
-- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
-- ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", "*"]
 - !private ["SF", "*="]
 - !private ["SF", "+"]
@@ -290,7 +285,7 @@ depends-member:
 - !private ["7SwiftUI6HStackV", "init"]
 - !private ["7SwiftUI6HStackV", "onTapGesture"]
 - !private ["7SwiftUI6HStackV", "padding"]
-- ["SH", ""]
+- !private ["SH", ""]
 - !private ["SH", "bold"]
 - ["SH", "bounds"]
 - !private ["SH", "indices"]
@@ -310,15 +305,13 @@ depends-member:
 - !private ["s12IdentifiableP", "name"]
 - !private ["7SwiftUI5ImageV", "foregroundColor"]
 - !private ["7SwiftUI5ImageV", "init"]
-- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "toggle"]
 - !private ["SM", ""]
 - !private ["SM", "indices"]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "indices"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
-- ["So8NSCodingP", ""]
-- ["So8NSObjectC", ""]
+- !private ["So8NSCodingP", ""]
 - ["So8NSObjectC", "bounds"]
 - ["So8NSObjectC", "main"]
 - ["So8NSObjectP", ""]
@@ -355,7 +348,7 @@ depends-member:
 - !private ["7SwiftUI12SceneBuilderV", "buildIf"]
 - !private ["7SwiftUI12SceneBuilderV", "buildOptional"]
 - !private ["7SwiftUI10ScrollViewV", "init"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "indices"]
 - !private ["ST", "subscript"]
 - !private ["7SwiftUI4EdgeO3SetV", "horizontal"]
@@ -372,8 +365,6 @@ depends-member:
 - !private ["s13SignedNumericP", "init"]
 - !private ["7SwiftUI6SpacerV", "init"]
 - ["7SwiftUI5StateV", "init"]
-- ["7SwiftUI5StateV", "projectedValue"]
-- ["7SwiftUI5StateV", "subscript"]
 - ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["Sx", ""]
 - !private ["Sx", "init"]
@@ -383,8 +374,6 @@ depends-member:
 - !private ["7SwiftUI4TextV", "foregroundColor"]
 - !private ["7SwiftUI4TextV", "init"]
 - !private ["7SwiftUI4TextV", "padding"]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - !private ["7SwiftUI14ToolbarContentP", ""]
 - !private ["7SwiftUI14ToolbarContentP", "init"]
 - !private ["7SwiftUI21ToolbarContentBuilderV", "buildBlock"]
@@ -491,11 +480,9 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "toggle"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI18_FormatSpecifiableP", "init"]
 - !private ["s19_HasContiguousBytesP", "indices"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
@@ -659,7 +646,7 @@ depends-nominal:
 - "7SwiftUI10AnimatableP"
 - !private "7SwiftUI9AnimationV"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - !private "SB"
 - "7SwiftUI7BindingV"
 - !private "Sb"
@@ -668,11 +655,11 @@ depends-nominal:
 - "So6CGRectV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- "Sl"
+- !private "Sl"
 - !private "7SwiftUI5ColorV"
 - !private "7SwiftUI8CommandsP"
 - !private "7SwiftUI15CommandsBuilderV"
-- "SL"
+- !private "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
@@ -686,13 +673,10 @@ depends-nominal:
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
 - !private "SF"
 - !private "7SwiftUI4FontV"
 - !private "7SwiftUI7ForEachV"
@@ -703,10 +687,10 @@ depends-nominal:
 - !private "7SwiftUI19HorizontalAlignmentV"
 - "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- "So8NSCodingP"
+- !private "So8NSCodingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sj"
@@ -718,7 +702,7 @@ depends-nominal:
 - !private "7SwiftUI5SceneP"
 - !private "7SwiftUI12SceneBuilderV"
 - !private "7SwiftUI10ScrollViewV"
-- "ST"
+- !private "ST"
 - !private "7SwiftUI4EdgeO3SetV"
 - !private "s10SetAlgebraP"
 - !private "7SwiftUI10ShapeStyleP"
@@ -727,8 +711,6 @@ depends-nominal:
 - "7SwiftUI5StateV"
 - !private "Sx"
 - !private "7SwiftUI4TextV"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - !private "7SwiftUI14ToolbarContentP"
 - !private "7SwiftUI21ToolbarContentBuilderV"
 - "So8UIScreenC"
@@ -744,11 +726,9 @@ depends-nominal:
 - "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "7SwiftUI18_FormatSpecifiableP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

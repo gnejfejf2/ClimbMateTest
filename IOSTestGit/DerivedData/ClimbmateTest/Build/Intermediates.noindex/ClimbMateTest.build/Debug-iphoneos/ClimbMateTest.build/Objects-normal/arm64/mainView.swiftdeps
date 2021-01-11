@@ -15,7 +15,6 @@ depends-top-level:
 - "+"
 - "/"
 - "=="
-- !private "Array"
 - !private "AssignmentPrecedence"
 - "Bool"
 - "BooleanLiteralType"
@@ -63,9 +62,8 @@ depends-top-level:
 - "userData"
 depends-member:
 - !private ["9Alamofire0A8ExtendedP", "subscript"]
-- ["7SwiftUI10AnimatableP", ""]
 - !private ["Sa", "subscript"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "subscript"]
 - !private ["7SwiftUI7BindingV", "init"]
 - !private ["7SwiftUI7BindingV", "projectedValue"]
@@ -82,9 +80,8 @@ depends-member:
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "value"]
 - !private ["s7CVarArgP", "viewContext"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "subscript"]
-- ["SL", ""]
 - ["13ClimbMateTest20ContentView_PreviewsV", "Default_Previews"]
 - ["13ClimbMateTest20ContentView_PreviewsV", "Previews"]
 - ["13ClimbMateTest20ContentView_PreviewsV", "View"]
@@ -116,7 +113,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "userInfo"]
 - !private ["s23CustomStringConvertibleP", "Name"]
-- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "asyncAfter"]
 - !private ["s23CustomStringConvertibleP", "default"]
 - !private ["s23CustomStringConvertibleP", "main"]
@@ -150,17 +147,12 @@ depends-member:
 - !private ["SE", "none"]
 - !private ["SE", "some"]
 - !private ["SE", "subscript"]
-- !private ["7SwiftUI11EnvironmentV", "init"]
-- !private ["7SwiftUI11EnvironmentV", "projectedValue"]
-- !private ["7SwiftUI11EnvironmentV", "subscript"]
-- !private ["7SwiftUI11EnvironmentV", "wrappedValue"]
-- !private ["7SwiftUI11EnvironmentV", "wrapperValue"]
 - !private ["7SwiftUI17EnvironmentValuesV", "managedObjectContext"]
 - !private ["SQ", "ArrayLiteralElement"]
 - !private ["SQ", "Element"]
 - !private ["SQ", "Name"]
 - !private ["SQ", "RawValue"]
-- ["SQ", ""]
+- !private ["SQ", ""]
 - !private ["SQ", "asyncAfter"]
 - !private ["SQ", "default"]
 - !private ["SQ", "init"]
@@ -181,22 +173,18 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "none"]
 - !private ["s23ExpressibleByNilLiteralP", "some"]
-- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
-- ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI7GestureP", "none"]
 - !private ["7SwiftUI7GestureP", "some"]
 - !private ["SH", "Name"]
 - !private ["SH", "RawValue"]
-- ["SH", ""]
+- !private ["SH", ""]
 - !private ["SH", "asyncAfter"]
 - !private ["SH", "default"]
 - !private ["SH", "init"]
@@ -213,12 +201,11 @@ depends-member:
 - !private ["s12IdentifiableP", "errorCheck"]
 - !private ["s12IdentifiableP", "networkErrorReason"]
 - !private ["7SwiftUI5ImageV", "init"]
-- ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["So8NSCodingP", "Name"]
-- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "Name"]
 - !private ["So20NSFetchRequestResultP", "value"]
 - !private ["So15NSManagedObjectC", "value"]
@@ -235,14 +222,13 @@ depends-member:
 - !private ["So8NSObjectC", "setTarget"]
 - !private ["So8NSObjectC", "standard"]
 - !private ["So8NSObjectC", "string"]
-- !private ["So8NSObjectC", "stringForKey"]
 - !private ["So8NSObjectC", "suspend"]
 - !private ["So8NSObjectC", "sync"]
 - !private ["So8NSObjectC", "value"]
 - !private ["So8NSObjectC", "valueForKey"]
 - !private ["So8NSObjectC", "viewContext"]
 - !private ["So8NSObjectP", "Name"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "asyncAfter"]
 - !private ["So8NSObjectP", "default"]
@@ -253,7 +239,6 @@ depends-member:
 - !private ["So8NSObjectP", "setTarget"]
 - !private ["So8NSObjectP", "standard"]
 - !private ["So8NSObjectP", "string"]
-- !private ["So8NSObjectP", "stringForKey"]
 - !private ["So8NSObjectP", "suspend"]
 - !private ["So8NSObjectP", "sync"]
 - !private ["So8NSObjectP", "value"]
@@ -320,7 +305,7 @@ depends-member:
 - !private ["7Combine9SchedulerP", "asyncAfter"]
 - !private ["7Combine9SchedulerP", "main"]
 - !private ["ST", "Element"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "subscript"]
 - !private ["s10SetAlgebraP", "ArrayLiteralElement"]
 - !private ["s10SetAlgebraP", "Element"]
@@ -329,15 +314,10 @@ depends-member:
 - !private ["s10SetAlgebraP", "init"]
 - !private ["7SwiftUI24StackNavigationViewStyleV", "init"]
 - ["7SwiftUI5StateV", "init"]
-- ["7SwiftUI5StateV", "projectedValue"]
-- ["7SwiftUI5StateV", "subscript"]
 - ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["7SwiftUI7TabViewV", "init"]
 - !private ["7SwiftUI7TabViewV", "onReceive"]
 - !private ["7SwiftUI4TextV", "init"]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So20UIFocusItemContainerP", ""]
 - !private ["So10UIKeyInputP", ""]
 - !private ["So17UITextInputTraitsP", ""]
@@ -413,11 +393,9 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "RawValue"]
@@ -567,19 +545,17 @@ depends-member:
 - !private ["13ClimbMateTest8userDataC", "userInformationClear"]
 depends-nominal:
 - !private "9Alamofire0A8ExtendedP"
-- "7SwiftUI10AnimatableP"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - !private "7SwiftUI7BindingV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
 - "13ClimbMateTest20ContentView_PreviewsV"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
-- "s23CustomStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "SD"
@@ -587,31 +563,26 @@ depends-nominal:
 - !private "So17OS_dispatch_queueC"
 - "7SwiftUI15DynamicPropertyP"
 - !private "SE"
-- !private "7SwiftUI11EnvironmentV"
 - !private "7SwiftUI17EnvironmentValuesV"
-- "SQ"
+- !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
 - !private "7SwiftUI7GestureP"
-- "SH"
+- !private "SH"
 - !private "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
-- "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- "So8NSCodingP"
+- !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So20NSFetchRequestResultP"
 - !private "So15NSManagedObjectC"
 - !private "So14NSNotificationC"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectP"
 - !private "So21NSPersistentContainerC"
 - !private "So18NSNotificationNamea"
 - !private "7SwiftUI9NamespaceV"
@@ -632,15 +603,12 @@ depends-nominal:
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "So26SCNetworkReachabilityFlagsV"
 - !private "7Combine9SchedulerP"
-- "ST"
+- !private "ST"
 - !private "s10SetAlgebraP"
 - !private "7SwiftUI24StackNavigationViewStyleV"
 - "7SwiftUI5StateV"
 - !private "7SwiftUI7TabViewV"
 - !private "7SwiftUI4TextV"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
-- "So18UIFocusEnvironmentP"
 - !private "So20UIFocusItemContainerP"
 - !private "So10UIKeyInputP"
 - !private "So17UITextInputTraitsP"
@@ -652,11 +620,9 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"

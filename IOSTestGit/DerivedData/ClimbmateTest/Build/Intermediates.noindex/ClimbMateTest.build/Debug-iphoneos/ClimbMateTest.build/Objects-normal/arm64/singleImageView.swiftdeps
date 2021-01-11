@@ -27,7 +27,6 @@ depends-member:
 - !private ["9Alamofire0A8ExtendedP", "append"]
 - ["9Alamofire0A8ExtendedP", "init"]
 - !private ["9Alamofire0A8ExtendedP", "subscript"]
-- ["7SwiftUI10AnimatableP", ""]
 - !private ["7SwiftUI10AnimatableP", "init"]
 - !private ["Sa", "append"]
 - ["Sa", "init"]
@@ -375,7 +374,7 @@ depends-member:
 - ["13ClimbMateTest15singleImageViewV", "urls"]
 depends-nominal:
 - "9Alamofire0A8ExtendedP"
-- "7SwiftUI10AnimatableP"
+- !private "7SwiftUI10AnimatableP"
 - "Sa"
 - "SK"
 - "So15CALayerDelegateP"
